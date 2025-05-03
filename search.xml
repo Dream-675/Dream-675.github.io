@@ -8,7 +8,7 @@
       <link href="/2025/05/03/test/"/>
       <url>/2025/05/03/test/</url>
       
-        <content type="html"><![CDATA[<p>啊啊啊啊啊啊啊啊</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset<span class="emphasis">_img blue.jpeg 图片描述 %&#125;</span></span><br></pre></td></tr></table></figure><p><img src="test.assets/beauty.jpg" alt=""></p><p>$R_{1}$</p>]]></content>
+        <content type="html"><![CDATA[<p>啊啊啊啊啊啊啊啊</p><p><img src="../img/blue.jpeg" alt=""></p><p><img src="img/blue.jpeg" alt=""></p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset<span class="emphasis">_img blue.jpeg 图片描述 %&#125;</span></span><br></pre></td></tr></table></figure><p><img src="../test.assets/beauty.jpg" alt=""></p><p>$R_{1}$</p>]]></content>
       
       
       <categories>
