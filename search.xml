@@ -8,8 +8,14 @@
       <link href="/2025/05/03/test/"/>
       <url>/2025/05/03/test/</url>
       
-        <content type="html"><![CDATA[<p>1<img src="E:/Hexo-Blog/blog-demo/source/img/world.jpeg" alt=""></p><p>2<img src="./../img/friends.jpeg" alt=""></p><p>3<img src="../img/fire.png" alt=""></p><p>4<img src="test.assets/childjpeg.jpeg" alt=""></p><p>5<img src="childjpeg.jpeg" alt=""></p>]]></content>
+        <content type="html"><![CDATA[<p>下面是图片<img src="../img/blue.jpeg" alt=""></p>]]></content>
       
+      
+      <categories>
+          
+          <category> 测试 </category>
+          
+      </categories>
       
       
         <tags>
