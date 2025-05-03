@@ -8,9 +8,21 @@
       <link href="/2025/05/04/bug%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%85%B3%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/"/>
       <url>/2025/05/04/bug%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%85%B3%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>在刚刚搭建hexo静态界面作为博客的时候，我选择用Typora编辑markdown文件。遇到了图片可以在Typora以及VS Code中显示，但是无法部署到github.io网页上的问题。</p><p><img src="https://dream-675.github.io/img/图像报错-1.jpg" /></p><p>右键打开网页源码，发现这么一行代码，将小括号的部分<a href="https://dream-675.github.io/2025/05/04/作业电子测量技术/作业电子测量技术/keben.jpg输入搜索栏，发现404，说明图片路径不存在。">https://dream-675.github.io/2025/05/04/作业电子测量技术/作业电子测量技术/keben.jpg输入搜索栏，发现404，说明图片路径不存在。</a></p><p>后续尝试发现源代码中，<a href="https://dream-675.github.io/img/keben.jpg地址存在图片（我经过了很多次的hexo">https://dream-675.github.io/img/keben.jpg地址存在图片（我经过了很多次的hexo</a> clean &amp;&amp; hexo generate &amp;&amp; hexo deploy，因此图片被上传到了网站上，输入绝对地址有效。）</p><p>所以在编写的时候使用绝对路径。</p><p>这不是很好的解决方法，但这是我尝试很多之后，能找到的唯一的解决方案。</p><div class="table-container"><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><p><img src="[%E4%BD%9C%E4%B8%9A%E7%94%B5%E5%AD%90%E6%B5%8B%E9%87%8F%E6%8A%80%E6%9C%AF/keben.jpg](https://dream-675.github.io/2025/05/04/作业电子测量技术/作业电子测量技术/keben.jpg)" alt=""></p></td><td></td></tr><tr><td></td></tr></tbody></table></div><p>遇到的坑有很多，比如Typora设置相对路径为主，并且将图片复制到文件名的文件夹中，在config.hml文件搜索post_asset_folder: false改为true。这个意思是在新建hexo new “twst” 博客时，生成博客名的文件夹，储存图片。理论上，Typora把图像复制到“twst”的文件夹，应该是能用的，但是会显示下图的问题，有链接，点进去是404.</p><p><img src="https://dream-675.github.io/img/图像报错-2.jpg" /></p><p>又在B站发现</p><p>PicGo自动部署图片，下载后发现图片上传失败，估计是配置的问题，暂时没解决。</p><p>相对路径需要../回到上一级，./来这一级，可能不太符合github 的语法（个人猜测）。</p><p>总之相对路径没玩明白，只好先上传然后使用绝对路径，Typora设置，不要勾选相对路径，不要复制（选择无操作）。语法为：</p><p><img src="图像的ORL" />，例如我的orl格式是<a href="https://你的用户名.github.io/img/xxx.jpg。">https://你的用户名.github.io/img/xxx.jpg。</a></p><p>总结下来，deepseek在我手里发挥不出太大的价值（我不太会总结问题喵）。B站和前人博客千岁。冷静思考不一样的解决方法万岁。</p>]]></content>
       
       
+      <categories>
+          
+          <category> bug及解决方案 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> bug及解决方案 </tag>
+            
+        </tags>
       
     </entry>
     
