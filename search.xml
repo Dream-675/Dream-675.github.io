@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>电磁场-题</title>
+      <link href="/2025/05/05/%E4%BD%9C%E4%B8%9A/%E7%94%B5%E7%A3%81%E5%9C%BA-%E9%A2%98/"/>
+      <url>/2025/05/05/%E4%BD%9C%E4%B8%9A/%E7%94%B5%E7%A3%81%E5%9C%BA-%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h3 id="第一章：矢量分析"><a href="#第一章：矢量分析" class="headerlink" title="第一章：矢量分析"></a>第一章：矢量分析</h3><h4 id="1、方向导数"><a href="#1、方向导数" class="headerlink" title="1、方向导数"></a>1、方向导数</h4><p><em>标量函数$u=3x^{2}y^{2}z^{2}$在点p(1,1,-1)处沿哪个方向导数最大？并求出该方向导数的值</em></p><blockquote><p>方向导数：</p><p>$u$在$P_{0}$处可微时（u对xy的偏导存在，并且在这点也连续。）</p><p>标量场$u(P)$，$P_{0}$是其中一点， $\vec{l}$是方向，连接$P_{0}和P_{1}$,方向导数是$P_{1}$沿$\vec{l}$方向趋近$P_{0}$的极限：</p><script type="math/tex; mode=display">l =(cos\alpha,cos\beta,cos\gamma)</script><p>其中$cos\alpha^{2}+cos\beta^{2}+cos\gamma^{2}=1$,</p><script type="math/tex; mode=display">\frac{du}{dl}\mid_{P_{0}}=\lim_{\Delta l \to 0}\frac{u(P_{1})-u(P_{0})}{\Delta l}</script><script type="math/tex; mode=display">\frac{du}{dl}=\frac{\partial u}{\partial x}\frac{dx}{dl}+\frac{\partial u}{\partial y}\frac{dy}{dl}+\frac{\partial u}{\partial z}\frac{dz}{dl}=cos\alpha\frac{\partial u}{\partial x}+cos\beta\frac{\partial u}{\partial y}+cos\gamma\frac{\partial u}{\partial z}</script><p>接下来引入哈密顿算子：</p><script type="math/tex; mode=display">\nabla=\vec{e_{x}}\frac{\partial }{\partial x}+\vec{e_{y}}\frac{\partial }{\partial y}+\vec{e_{z}}\frac{\partial }{\partial z}\quad 直角坐标系</script><script type="math/tex; mode=display">\nabla=\vec{e_{\rho}}\frac{\partial }{\partial x}+\vec{e_{\phi}}\frac{\partial }{\rho\partial \phi}+\vec{e_{z}}\frac{\partial }{\partial z}\quad圆柱坐标系</script><script type="math/tex; mode=display">\nabla=\vec{e_{r}}\frac{\partial }{\partial r}+\vec{e_{\theta}}\frac{\partial }{r\partial \theta}+\vec{e_{\phi}}\frac{\partial }{rsin\theta\:\partial \phi}\quad球坐标系</script><script type="math/tex; mode=display">\frac{du}{dl}=\nabla u\cdot \vec{e_{l}}</script><p>梯度是方向导数最大的地方，也是变化最剧烈的方向。方向导数最大值是$\frac{du}{dl}=\nabla u\cdot \mid\vec{l}\mid$，方向是$\vec{l}$的方向。</p></blockquote><p>解：</p><script type="math/tex; mode=display">\frac{du}{dl}\mid_{(1,1,-1)}=cos\alpha6xy^{2}z^{2}+cos\beta6x^{2}yz^{2}+cos\gamma6x^{2}y^{2}z=6cos\alpha\vec{a_{x}}+6cos\beta\vec{a_{y}}-6cos\gamma\vec{a_{z}}</script><script type="math/tex; mode=display">grad\;u =6\vec{a_{x}}+6\vec{a_{y}}-6\vec{a_{z}}</script><p>最大值是$6\sqrt{3}$.沿（1,1，-1）方向。</p><hr><h4 id="2、方向导数"><a href="#2、方向导数" class="headerlink" title="2、方向导数"></a>2、方向导数</h4><p><em>求标量函数$\varphi=2x^{2}y+3y^{2}z+xz^{2}$在点(1, -1, 1)处沿矢量$\vec{l}=yz\vec{a_{x}}+xz\vec{a_{y}}+xy\vec{a_{z}}$方向的方向导数。</em></p><p>解：</p><script type="math/tex; mode=display">\frac{d\varphi}{dl}\mid_{(1,-1,1)}=(4xy+z^{2})\:cos\alpha+(6yz+2x^{2})cos\beta+(3y^{2}+2xz)cos\gamma=-3cos\alpha-4cos\beta+5cos\gamma</script><script type="math/tex; mode=display">\vec{l}\mid_{(1,-1,1)}=-\vec{a_{x}}+\vec{a_{y}}-\vec{a_{z}}</script><script type="math/tex; mode=display">cos\alpha=-\frac{\sqrt{3}}{3};cos\beta=\frac{\sqrt{3}}{3};cos\alpha=-\frac{\sqrt{3}}{3}</script><p>代入得方向导数为$2\sqrt{3}$.</p><hr><h4 id="3、通量"><a href="#3、通量" class="headerlink" title="3、通量"></a>3、通量</h4><p><em>空间中包括点（x1,y1,z1）的平面方程为l(x-x~1~)+m(y-y~1~)+n(z-z~1~)=0 其中l,m和n是垂直于该平面的单位矢量的方向余弦。已知矢量$\vec{F}=a_{x}+2a_{y}+3a_{z}$，求矢量<strong>F</strong>穿过该平面顶点处于点（0,0,2）,（2,0,2）,（2,2,0）和（0,2,0）的正方形区域的通量$\int_{S}\vec{F}\cdot ds$</em></p><blockquote></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 作业 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 作业 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于hexo部署图片失败问题的解决</title>
       <link href="/2025/05/04/bug%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%85%B3%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/"/>
       <url>/2025/05/04/bug%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%85%B3%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/</url>
