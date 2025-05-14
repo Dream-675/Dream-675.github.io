@@ -30,22 +30,22 @@
     
     <entry>
       <title>电磁场-题</title>
-      <link href="/2025/05/05/%E4%BD%9C%E4%B8%9A/%E7%94%B5%E7%A3%81%E5%9C%BA-%E9%A2%98/"/>
-      <url>/2025/05/05/%E4%BD%9C%E4%B8%9A/%E7%94%B5%E7%A3%81%E5%9C%BA-%E9%A2%98/</url>
+      <link href="/2025/05/05/%E9%A2%98%E7%9B%AE/%E7%94%B5%E7%A3%81%E5%9C%BA-%E9%A2%98/"/>
+      <url>/2025/05/05/%E9%A2%98%E7%9B%AE/%E7%94%B5%E7%A3%81%E5%9C%BA-%E9%A2%98/</url>
       
         <content type="html"><![CDATA[<h3 id="第一章：矢量分析"><a href="#第一章：矢量分析" class="headerlink" title="第一章：矢量分析"></a>第一章：矢量分析</h3><h4 id="1、方向导数"><a href="#1、方向导数" class="headerlink" title="1、方向导数"></a>1、方向导数</h4><p><em>标量函数$u=3x^{2}y^{2}z^{2}$在点p(1,1,-1)处沿哪个方向导数最大？并求出该方向导数的值</em></p><blockquote><p>方向导数：</p><p>$u$在$P_{0}$处可微时（u对xy的偏导存在，并且在这点也连续。）</p><p>标量场$u(P)$，$P_{0}$是其中一点， $\vec{l}$是方向，连接$P_{0}和P_{1}$,方向导数是$P_{1}$沿$\vec{l}$方向趋近$P_{0}$的极限：</p><script type="math/tex; mode=display">l =(cos\alpha,cos\beta,cos\gamma)</script><p>其中$cos\alpha^{2}+cos\beta^{2}+cos\gamma^{2}=1$,</p><script type="math/tex; mode=display">\frac{du}{dl}\mid_{P_{0}}=\lim_{\Delta l \to 0}\frac{u(P_{1})-u(P_{0})}{\Delta l}</script><script type="math/tex; mode=display">\frac{du}{dl}=\frac{\partial u}{\partial x}\frac{dx}{dl}+\frac{\partial u}{\partial y}\frac{dy}{dl}+\frac{\partial u}{\partial z}\frac{dz}{dl}=cos\alpha\frac{\partial u}{\partial x}+cos\beta\frac{\partial u}{\partial y}+cos\gamma\frac{\partial u}{\partial z}</script><p>接下来引入哈密顿算子：</p><script type="math/tex; mode=display">\nabla=\vec{e_{x}}\frac{\partial }{\partial x}+\vec{e_{y}}\frac{\partial }{\partial y}+\vec{e_{z}}\frac{\partial }{\partial z}\quad 直角坐标系</script><script type="math/tex; mode=display">\nabla=\vec{e_{\rho}}\frac{\partial }{\partial x}+\vec{e_{\phi}}\frac{\partial }{\rho\partial \phi}+\vec{e_{z}}\frac{\partial }{\partial z}\quad圆柱坐标系</script><script type="math/tex; mode=display">\nabla=\vec{e_{r}}\frac{\partial }{\partial r}+\vec{e_{\theta}}\frac{\partial }{r\partial \theta}+\vec{e_{\phi}}\frac{\partial }{rsin\theta\:\partial \phi}\quad球坐标系</script><script type="math/tex; mode=display">\frac{du}{dl}=\nabla u\cdot \vec{e_{l}}</script><p>梯度是方向导数最大的地方，也是变化最剧烈的方向。方向导数最大值是$\frac{du}{dl}=\nabla u\cdot \mid\vec{l}\mid$，方向是$\vec{l}$的方向。</p></blockquote><p>解：</p><script type="math/tex; mode=display">\frac{du}{dl}\mid_{(1,1,-1)}=cos\alpha6xy^{2}z^{2}+cos\beta6x^{2}yz^{2}+cos\gamma6x^{2}y^{2}z=6cos\alpha\vec{a_{x}}+6cos\beta\vec{a_{y}}-6cos\gamma\vec{a_{z}}</script><script type="math/tex; mode=display">grad\;u =6\vec{a_{x}}+6\vec{a_{y}}-6\vec{a_{z}}</script><p>最大值是$6\sqrt{3}$.沿（1,1，-1）方向。</p><hr><h4 id="2、方向导数"><a href="#2、方向导数" class="headerlink" title="2、方向导数"></a>2、方向导数</h4><p><em>求标量函数$\varphi=2x^{2}y+3y^{2}z+xz^{2}$在点(1, -1, 1)处沿矢量$\vec{l}=yz\vec{a_{x}}+xz\vec{a_{y}}+xy\vec{a_{z}}$方向的方向导数。</em></p><p>解：</p><script type="math/tex; mode=display">\frac{d\varphi}{dl}\mid_{(1,-1,1)}=(4xy+z^{2})\:cos\alpha+(6yz+2x^{2})cos\beta+(3y^{2}+2xz)cos\gamma=-3cos\alpha-4cos\beta+5cos\gamma</script><script type="math/tex; mode=display">\vec{l}\mid_{(1,-1,1)}=-\vec{a_{x}}+\vec{a_{y}}-\vec{a_{z}}</script><script type="math/tex; mode=display">cos\alpha=-\frac{\sqrt{3}}{3};cos\beta=\frac{\sqrt{3}}{3};cos\alpha=-\frac{\sqrt{3}}{3}</script><p>代入得方向导数为$2\sqrt{3}$.</p><hr><h4 id="3、通量"><a href="#3、通量" class="headerlink" title="3、通量"></a>3、通量</h4><p><em>空间中包括点（x1,y1,z1）的平面方程为l(x-x~1~)+m(y-y~1~)+n(z-z~1~)=0 其中l,m和n是垂直于该平面的单位矢量的方向余弦。已知矢量$\vec{F}=a_{x}+2a_{y}+3a_{z}$，求矢量<strong>F</strong>穿过该平面顶点处于点（0,0,2）,（2,0,2）,（2,2,0）和（0,2,0）的正方形区域的通量$\int_{S}\vec{F}\cdot ds$</em></p><blockquote><p>$l(x-x_{1})+m(y-y_{1})+n(z-z_{1})=0$是平面的点法式方程，$(l\;m\;n)$是法向量，$(x_1\;y_{1}\;z_1)$是这个平面上的任意一个点。</p></blockquote><p>代入点（0,0,2），可以得到$l=0,m=n$，并且$l^{2}+m^{2}+n^{2}=1$再代入任意一个点，可以得到法向量为$\vec{n}=(0,\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2})$。</p><script type="math/tex; mode=display">\int_S{\vec{F}\cdot d\vec{S}}=\int_S{\vec{F}\cdot\vec{n} dS}=4\sqrt{2}\cdot(l\vec{a_{x}}+2m\vec{a_{y}}+3n\vec{a_{z}})</script><p>世界赠与我虫鸣，也赠与我雷霆</p>]]></content>
       
       
       <categories>
           
-          <category> 作业 </category>
+          <category> 题目 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 作业 </tag>
+            <tag> 题目 </tag>
             
         </tags>
       
@@ -83,7 +83,7 @@
       <link href="/2025/05/04/bug%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%85%B3%E4%BA%8Ehexo%E4%B8%8Egithub%E5%BB%BA%E7%AB%8B%E8%BF%9E%E6%8E%A5%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/"/>
       <url>/2025/05/04/bug%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%85%B3%E4%BA%8Ehexo%E4%B8%8Egithub%E5%BB%BA%E7%AB%8B%E8%BF%9E%E6%8E%A5%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/</url>
       
-        <content type="html"><![CDATA[<h5 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h5><p>使用hexo与github.io展示博客，使用Typora编写博客的markdown文件。在编写md文件的过程中，图片可以在Typora以及VS Code中显示，但是无法在github.io网页上显示，只有残缺的图标，如下图所示：</p><p><img src="https://dream-675.github.io/img/图像报错-1.jpg" /></p><h5 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h5><p>右键打开网页源码，发现这么几行代码：</p><p><img src="https://dream-675.github.io/img/图像报错-2.jpg" /></p><p>图中蓝色的，有下划线的部分应该是调用的图片地址，正常情况下点开会出现图片。</p><p><img src="https://dream-675.github.io/img/图像报错-3.jpg" /></p><p>打开蓝色的链接“【作业】电子测量技术.assets/电子测量技术-du.jpg”，出现404界面，说明图片路径不存在。</p><p>那么，有没有一种链接，可以在网上打开呢？我的封面图可以正常加载，也就是说/img/xxx.jpg这个路径是有用的。于是发现<a href="https://dream-675.github.io/img/keben.jpg">https://dream-675.github.io/img/keben.jpg</a>  这个地址果然存在图片。</p><p>于是在编写的时候换个思路，直接<strong>使用绝对地址</strong>，果然页面成功加载图片！</p><h5 id="使用方法："><a href="#使用方法：" class="headerlink" title="使用方法："></a>使用方法：</h5><p>1、设置typora，文件-偏好设置-图像，并按照下图设置。</p><p><img src="https://Dream-675.github.io/img/图像报错-4.jpg"/></p><p>2、在编写markdown文件时，输入</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://你的仓库名.github.io/img/xxx.jpg&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure><p>3、在blog目录下，git三连，发布的博客是可以正常显示图片的。</p><h5 id="Note："><a href="#Note：" class="headerlink" title="Note："></a>Note：</h5><ol><li>在之前的反复尝试中，经过了很多次的hexo generate &amp;&amp; hexo deploy，因此图片被上传到了github库里的Img文件夹上，因此输入绝对地址有效。如果第一次编写博客，图片还未上传，使用这种绝对路径是没办法在typora里预览的。所以这并不是最好的解决方法，只是我尝试之后找到的唯一可行的方案。祝你没有遇到这些问题。</li><li>我还尝试过Typora设置相对路径为主，并且将图片复制到文件名的文件夹中；在config.hml文件搜索post_asset_folder: false改为true。（这个意思是在新建hexo new “twst” 博客时，生成博客名的文件夹，储存图片。）理论上，Typora把图像复制到“twst”的文件夹，应该是能用的，但是会显示下图的问题，有链接，点进去是404。相对路径需要../导航到到上一级，./导航到本级，<del>可能不太符合hexo的语法</del>（个人猜测）。</li><li>还有一种解决思路是PicGo自动部署图片，下载后发现图片上传失败，估计是配置的问题，暂时没搞明白。</li></ol><p>总结下来，deepseek在我手里发挥不出太大的价值（我不太会总结问题喵）。B站和前人博客千岁。冷静思考不一样的解决方法万岁。</p><hr><h5 id="附录：常用git-bash命令"><a href="#附录：常用git-bash命令" class="headerlink" title="附录：常用git bash命令"></a>附录：常用git bash命令</h5><figure class="highlight plaintext"><figcaption><span>bash</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;your_blog_name&quot;   #创建新博客</span><br><span class="line">hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy  #hexo三连，清除缓存，生成文件，部署到github</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h5 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h5><p>Windows系统，使用hexo与github.io展示博客，运行下述指令测试连接：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure><p>出现下图所示问题：</p><p><img src="https://dream-675.github.io/img/bug-%E8%BF%9E%E6%8E%A5-1.jpg" /></p><h5 id="解决措施："><a href="#解决措施：" class="headerlink" title="解决措施："></a>解决措施：</h5><ol><li>检查网络设置，例如我使用了加速器，关掉加速器后正常运行。</li><li><a href="https://www.cnblogs.com/oldboyooxx/p/10387150.html">服务器22端口连接超时 ssh: connect to host <em>*</em> port 22: Operation timed out - oldboyooxx - 博客园</a></li><li><a href="https://blog.csdn.net/the__future/article/details/130038818">关于本地git通过ssh链接github时 time out问题的解决方法_github timeout-CSDN博客</a></li></ol>]]></content>
       
       
       <categories>
@@ -104,23 +104,23 @@
     
     
     <entry>
-      <title>电磁场笔记0503</title>
-      <link href="/2025/05/03/%E7%94%B5%E7%A3%81%E5%9C%BA/%E7%AC%94%E8%AE%B0-%E7%94%B5%E7%A3%81%E5%9C%BA%E7%AC%94%E8%AE%B00503/"/>
-      <url>/2025/05/03/%E7%94%B5%E7%A3%81%E5%9C%BA/%E7%AC%94%E8%AE%B0-%E7%94%B5%E7%A3%81%E5%9C%BA%E7%AC%94%E8%AE%B00503/</url>
+      <title>电磁场笔记</title>
+      <link href="/2025/05/03/%E7%AC%94%E8%AE%B0/%E7%AC%94%E8%AE%B0-%E7%94%B5%E7%A3%81%E5%9C%BA%E7%AC%94%E8%AE%B00503/"/>
+      <url>/2025/05/03/%E7%AC%94%E8%AE%B0/%E7%AC%94%E8%AE%B0-%E7%94%B5%E7%A3%81%E5%9C%BA%E7%AC%94%E8%AE%B00503/</url>
       
         <content type="html"><![CDATA[<p>这个系列总归是要开始做了，因为我是几乎从0开始学习电磁场，所以会写很多很多并不精简的笔记，祝食用愉快。参考课本如下：</p><p><del>唉这个人又在说瞎话了，明明是几乎不写笔记，还要说成是会写很多笔记</del></p><p><img src="https://dream-675.github.io/img/电磁场-笔记-1.jpg" width="283" height="400" /></p>]]></content>
       
       
       <categories>
           
-          <category> 电磁场 </category>
+          <category> 笔记 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 电磁场 </tag>
+            <tag> 笔记 </tag>
             
         </tags>
       
