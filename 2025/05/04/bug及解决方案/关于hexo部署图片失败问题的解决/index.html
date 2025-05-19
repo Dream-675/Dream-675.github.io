@@ -226,16 +226,16 @@
   window.pjax ? loadMathjax() : window.addEventListener('load', loadMathjax)
 })()</script></div><script>
   // 计算运行时间
-#  function updateTime() {
-#   const startDate = moment('2025-04-25'); 
-#   const now = moment();
-#   const duration = moment.duration(now.diff(startDate));
-#   
-#  document.getElementById('days').textContent = Math.floor(duration.asDays());
-#    document.getElementById('hours').textContent = duration.hours().toString().padStart(2, '0');
-#   document.getElementById('minutes').textContent = duration.minutes().toString().padStart(2, '0');
-#   document.getElementById('seconds').textContent = duration.seconds().toString().padStart(2, '0');
-# }
+  function updateTime() {
+   const startDate = moment('2025-04-25'); 
+   const now = moment();
+   const duration = moment.duration(now.diff(startDate));
+   
+  document.getElementById('days').textContent = Math.floor(duration.asDays());
+    document.getElementById('hours').textContent = duration.hours().toString().padStart(2, '0');
+   document.getElementById('minutes').textContent = duration.minutes().toString().padStart(2, '0');
+   document.getElementById('seconds').textContent = duration.seconds().toString().padStart(2, '0');
+ }
   
   setInterval(updateTime, 1000);
   updateTime();
