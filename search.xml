@@ -154,56 +154,6 @@
     
     
     <entry>
-      <title>电磁场笔记</title>
-      <link href="/2025/05/03/%E7%AC%94%E8%AE%B0/%E7%AC%94%E8%AE%B0-%E7%94%B5%E7%A3%81%E5%9C%BA%E7%AC%94%E8%AE%B00503/"/>
-      <url>/2025/05/03/%E7%AC%94%E8%AE%B0/%E7%AC%94%E8%AE%B0-%E7%94%B5%E7%A3%81%E5%9C%BA%E7%AC%94%E8%AE%B00503/</url>
-      
-        <content type="html"><![CDATA[<p>电磁场参考课本如下：</p><p><img src="https://dream-675.github.io/img/电磁场-笔记-1.jpg" width="283" height="400" /></p><p>考完了，在考试前17个小时，脑子一热想写篇笔记出来，顺便复习，就有了下面的文字稿。</p><p>刚开始打算像讲故事一样，引出电磁场；</p><p>接着有点困了，就只剩下抄公式了；</p><p>先放在这里了，考试前我向自己立下契约，不管考试结果，都会补全笔记的。</p><p>字体不太美观，这就是我希望写博客的原因之一，和“容易复制粘贴抄袭”没有半点关系！！！公式也是手打的。</p><p><img src="https://dream-675.github.io/img/电磁场-笔记-2.jpg"  /></p><p><img src="https://dream-675.github.io/img/电磁场-笔记-3.jpg" /></p><p><img src="https://dream-675.github.io/img/电磁场-笔记-4.jpg"  /></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 笔记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 笔记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>电子测量技术</title>
-      <link href="/2025/05/02/%E7%AC%94%E8%AE%B0/%E7%AC%94%E8%AE%B0-%E7%94%B5%E5%AD%90%E6%B5%8B%E9%87%8F%E6%8A%80%E6%9C%AF/"/>
-      <url>/2025/05/02/%E7%AC%94%E8%AE%B0/%E7%AC%94%E8%AE%B0-%E7%94%B5%E5%AD%90%E6%B5%8B%E9%87%8F%E6%8A%80%E6%9C%AF/</url>
-      
-        <content type="html"><![CDATA[<p>电子测量技术是一门电子信息工程专业选修课。在这里，玩家会困在一个名为“675号”的实验室，只有遵守实验室的各种<strong>规则怪谈</strong>，正确使用测量方法，才可以逃出生天。请尽可能地消灭各种种类的“<strong>误差</strong>”怪物，争取更多求生时间。随时间的推移，你将会获得不同测量仪器和高级测量方法的buff。那么，3， 2， 1……游戏开始！</p><blockquote><p>教材为《电子测量原理》（第2版），詹慧琴，古天祥等编。</p><p><img src="https://dream-675.github.io/img/keben.jpg" width="283" height="400" /></p></blockquote><h2 id="术语图鉴（可跳过先看后面部分"><a href="#术语图鉴（可跳过先看后面部分" class="headerlink" title="术语图鉴（可跳过先看后面部分)"></a>术语图鉴（可跳过先看后面部分)</h2><ul><li><p>测量结果：测量数值.测量单位</p></li><li><p>量值：一个数值乘以测量单位所表示的特定量的大小。量值=数值×单位。</p></li><li><p>测量的基本要素：被测对象、测量技术、测量人员和测量环境。</p></li><li><p>测量、测试和检测：测量包含定性、定量、定级测量。测试=定量测量+定性试验。检测=定量测量+分级检验。</p></li><li><p>计量：利用技术和法律手段实现单位同意个量值准确可靠的测量。具有“统一性”，“准确性”，“法制性”。</p></li></ul><h2 id="误差图鉴"><a href="#误差图鉴" class="headerlink" title="误差图鉴"></a>误差图鉴</h2><p>首先，我们要知道误差指的是什么：<strong>测量结果与真值的差别。</strong></p><ul><li><p>测量结果：测量得出的结果；</p></li><li><p>真值A~0~：在一定的时间和空间环境条件下，被测量本身所具有的真实数值。</p></li><li><em>Note</em>：所有测量结果都有误差，因为真值是测不出来的。</li></ul><h2 id="信号测量"><a href="#信号测量" class="headerlink" title="信号测量"></a>信号测量</h2><h2 id="系统测量"><a href="#系统测量" class="headerlink" title="系统测量"></a>系统测量</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> 笔记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 笔记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于选择《sky》及其二创作为背景图的解释</title>
       <link href="/2025/04/27/%E7%94%9F%E6%B4%BB/%E6%B5%85%E8%B0%88sky%E4%B8%8Ejourney/"/>
       <url>/2025/04/27/%E7%94%9F%E6%B4%BB/%E6%B5%85%E8%B0%88sky%E4%B8%8Ejourney/</url>
