@@ -8,7 +8,7 @@
       <link href="/2025/06/23/%E7%99%BD%E6%9D%BF-%E8%AE%B0%E5%BD%95TTS/"/>
       <url>/2025/06/23/%E7%99%BD%E6%9D%BF-%E8%AE%B0%E5%BD%95TTS/</url>
       
-        <content type="html"><![CDATA[<p>首先确定一件事，我们需要做的是通俗的，易懂的，有趣的。单独PPT拿出来就可以诉说很多东西的。</p><p>所以我想的是TTS的模型转换。开源的模型最近的有GPT-sovits，由B站花儿不哭大佬制作，最近更新为2025-0604，V2PRO版本。</p><p>从文本转语音的原理讲起，接着对比各种TTS的原理，最后推荐开源的GPT-SOVITS！</p><p>所以现在需要搞懂什么是TTS</p><blockquote><p>我找到了一个TTS算法综述，发表于20230820.</p><p>大意就是有很多种方式，生成的在23年比较先进，年底又推出了sovoit，接着就是花儿不哭的讲解。主要观点是在soviot的基础上进行改进……</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<p>首先确定一件事，我们需要做的是通俗的，易懂的，有趣的。单独PPT拿出来就可以诉说很多东西的。</p><p>所以我想的是TTS的模型转换。开源的模型最近的有GPT-sovits，由B站花儿不哭大佬制作，最近更新为2025-0604，V2PRO版本。</p><p>从文本转语音的原理讲起，接着对比各种TTS的原理，最后推荐开源的GPT-SOVITS！</p><p>所以现在需要搞懂什么是TTS</p><blockquote><p>我找到了一个TTS算法综述，发表于20230820.</p><p>大意就是有很多种方式，生成的在23年比较先进，年底又推出了sovoit，接着就是花儿不哭的讲解。主要观点是在soviot的基础上进行改进……</p></blockquote><hr><p>后续：录了视频、使用的配音，同时交了PPT，感觉很棒啊很棒，玩得很开心！！！</p>]]></content>
       
       
       
@@ -17,11 +17,11 @@
     
     
     <entry>
-      <title>白板-社会主义和资本主义</title>
-      <link href="/2025/06/20/%E7%99%BD%E6%9D%BF-%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E5%92%8C%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89/"/>
-      <url>/2025/06/20/%E7%99%BD%E6%9D%BF-%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E5%92%8C%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89/</url>
+      <title>白板-记录labview</title>
+      <link href="/2025/06/19/%E7%99%BD%E6%9D%BF-%E8%AE%B0%E5%BD%95labview/"/>
+      <url>/2025/06/19/%E7%99%BD%E6%9D%BF-%E8%AE%B0%E5%BD%95labview/</url>
       
-        <content type="html"><![CDATA[<p><strong>Q：什么是资本主义，什么是社会主义，按照什么定义？</strong></p><p>他们的区别是生产资料所有制，</p><p>封建主义的生产资料是阶级所有，资产主义的生产资料是私有制，社会主义的生产资料是公有制，也就是社会所有。</p><p>生产资料是进行生产活动必须的物质资料，比如土地，厂房，机器等</p>]]></content>
+        <content type="html"><![CDATA[<p>把思考引过来就可以。那么，我会在接下来尝试入门labview。</p><blockquote><p>首先，这是一项作业，也可以认为是给林老师的一份，情书。oh，我墙头确实有点多……而且做出这些东西，是我很想做的事情。我的意思是，整活，整大活。可能是因为这是我自己希望创造出来的东西，所以会很喜欢。而且没有太多竞争。不过要加油啦。信条应该就是，不停地寻找解决办法，神说，可以做出来的。</p><p>其次，就是我看到了按键的设计，动画效果。界面美化整个界面比较简洁。有两种思路，一种是模仿示波器，写实派，但是不太合适用按键展示。另一种是自己造网页，选一种简约的配色（唔，，蓝黄或者深蓝灰）然后试着做成真正的web网站的形式。所以有两个问题，一个是动画效果怎么实现；还有一个是部署网络怎么实现……剩下的是示波器的部分，也是主要部分……这个嘛……加油</p><p>然后，确定总体思路，整个界面要协调，就算扣细节，也要知道往哪个方向努力。</p></blockquote><p>目标是多波形信号发生器和频谱分析仪系统，我的理解是，左边产生波形后，右边就可以实现频谱分析。信号发生器的部分比较好理解，最好是可以输出双通道。</p><p>希望实现的小巧思：</p><blockquote><p>1.页面打开，跳出说明书界面，每一部分如果点上去，就有适当的说明书。当然也有工作范围等警告标识。</p><p>2.按键使用动画显示，为了突出按键的选中效果，点击也有对应的动画效果。</p><p>3.双通道，为了方便对比。</p><p>4.考虑要不要设置两个仪器的输入输出通道，然后用接线连接，但是那样的话和页面化的设计很突兀。</p><p>5.数据/图像存储按键。注意没图像时不能存储。</p><p>6.尝试实现暂停功能。</p></blockquote><p>虚拟仪器系统的优点在于，可以突破现实规律（注意设计限制，例如有些地方不能输入负数会报错等，应该符合现实逻辑。）；可以减小现实中的误差，例如仪器物理磨损等误差就不存在了。另外还可以不用拘泥于材料限制，设计界面不用过于紧凑（然而紧凑一点会显得简洁有条理）；可以通过按键的大小形状来区分每一部分的功能，然后给特殊的按键，例如开关等标上红色。使用写数字、旋钮等多种方式调节按键（这是现实中的仪器经常会做的事情，至于网络上，多次设计可能意义不大，除非炫技）；</p><p>接下来，为了弄清楚频谱分析仪的作用，我去B站看频谱分析仪的讲解视频：</p><blockquote><p>1.标识了工作频率范围</p></blockquote><p>没办法连线，好气啊啊啊啊啊啊啊啊。唔，解决办法是，多试……</p>]]></content>
       
       
       <categories>
@@ -36,6 +36,19 @@
             <tag> 生活 </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>白板</title>
+      <link href="/2025/06/17/%E7%99%BD%E6%9D%BF-%E8%AE%B0%E5%BD%95%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%A4%8D%E4%B9%A0/"/>
+      <url>/2025/06/17/%E7%99%BD%E6%9D%BF-%E8%AE%B0%E5%BD%95%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%A4%8D%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<p>好了……没人看到最好……</p><p>可以肆无忌惮地赛博拉屎了，</p><p>想起来了，导致学期前和学期后半段记忆缺失的主要原因是，大创项目的问题。因为没有实现，所以太过痛苦了以至于封闭了记忆。</p><p>我希不希望这份情绪散去？——不希望</p><p>但是现在遮羞布可以揭掉了，没有后路了，也失去了可以倾诉的对象，很不错。那么，这种情况下，如果情绪不散去，照样失去记忆，没有地方会因此受益。——对</p><blockquote><p>情绪不散去，首先会耽误时间。其次，哭完再睡对身体不好，头晕。然后，我也不希望他们担心，起码不希望姐姐担心。接着我放弃了父母，所以这段时间我是自由的。然后，同学……分情况讨论，如果有，也可以理解，我也在时刻接收外界信息，并且这种是没办法控制的。如果没有那更好，是我疑神疑鬼。既然在我的主观感受里存在，但无用……只能带来消耗，那么我可以听音乐，主观忽视这些。失去记忆的话，就不痛苦了。这个，随便吧……都可以……也就是说，现在世界上没有人会理我，我可以从文字中找到精神碎片，但是……也需要时间，而且没用的样子，老实讲，我已知的就这些，那么我只会从已知的地方获取养分，大概率还是已知的。我需要随机带来的未知，拓宽涉猎面，拓宽精神。所以，在现有条件下，进行文字交流意义不大。可以替代的有，涉猎新的领域。关于如何涉猎新的领域，暂时未知……但这不是今天讨论的范畴。如果进行娱乐活动，一方面会消耗精力，另一方面牵动情绪，浪费时间，而且最终结果与明天无关。我总不能指望一群陌生人提供很有见解的帮助，或许可以，但是我要很明确我的问题才可以。</p></blockquote><p>那么，理论上来说，复习深度学习是我现在的重要且紧急事项。——对</p><blockquote><p>理由：明天八点考试，七点出发，还有八个半小时。时间上很紧急。</p><p>因为它有趣，我也很好奇为什么做到的。就是那种，想看电影一样，在第一眼，看到这个电影名称的时候，有一点点好奇，所以点开了这部电影，所以选了这门课。那么之后发生的事情，就是这门课带给我的魅力了。</p><p>平心而论，老师讲的非常好！通俗易懂！那么，我能不能对这部分内容有一个自己的总结和整理。就是按照我的方式，讲一场故事。这是离开这门课以后，我还可以学到的。考试只是我交给王栋老师的一封情书，为了称赞他通俗易懂的教学。</p><p>深度学习讲述了CNN,RNN,注意力机制等等的发展历程，讲了很多很有用的模型，我会选择上课并且听下去是因为……我喜欢老师，喜欢这门课，这些东西我之前听说过，自然会感到很亲切。</p><p>我听过课，我会对很多东西有印象。这说明复习的难度并不大。</p><p>我可以转换目标，单纯整理出深度学习发展流程。各个模型。各种机制。</p><p>让电脑去实现人类的功能，比如人脸识别，比如看图说字……这听起来是根本不可能的！！但是也并非……把图像表示成像素，就可以做到了？我可以提取边缘，图像分割。但是我还想象不到怎么去进行识别。有人提出用特征……</p></blockquote><p>所以，深度学习是怎么发展起来的呢，请用目前的记忆概括</p><blockquote><p>首先，从图像说起，图像变成像素，数字化。文字也可以变成数字，给他们对应矩阵。音频不知道……卷积神经网络和循环神经网络，还有自注意力机制，如果给我PPT我都懂……对不起o(╥﹏╥)o好叭，是时候看科普视频了。</p></blockquote><p>看闪客视频以及我的一些思考：</p><blockquote><p>有监督学习，有输入和输出，那么目的是找到一个具体的函数！而之后的CNN.RNN都是无监督学习了，只有输入，没有映射关系……不过说起来，训练得到的模型怎么不算一种广义的函数呢？</p><p>回归是一种猜！！！有输入有输出，然后放到坐标纸上，去猜。最小二乘法就是在xy轴的时候，找到距离最近的那个函数。那么，岭回归估计就是，维度高一点……:green_apple:有非线性关系，也就是给线性关系套一层函数，<strong>激活函数</strong>，从而可以实现对数/tan/之类的非线性关系。</p><p>神经网络：不同的输入、输出，然后套一层激活函数，然后给结果再进行线性变换，再套激活函数，，，这一层一层的，就可以表示成层，唔，我的意思是，层的来源其实很形象，图上画的一层就对应函数中的一层。这个很大很大的函数，是为了拟合任意弯曲的曲线，换言之，拟合任意实际需求。过拟合说明泛化能力差。</p><p>为了解决过拟合问题，可以<strong>增大数据量</strong>（在没有足够数据的情况下可以创造数据，比如旋转，镜像，加噪，裁剪。我靠我以为这都是一样的，我靠真是个天才，我靠果然我没有代入计算机的视角处理问题）或者<strong>引入惩罚项</strong>或者<strong>提前终止训练过程</strong>（我靠，原来是用这种方式解决的吗？？？）或者<strong>每次训练时随机丢弃一部分参数</strong>（防止一家独大，过于依赖某个参数）。增大数据量叫做数据增强，增加了数据的鲁棒性，也就是不会因为微小变化而产生较大误差。因为训练的时候，就把微小变化也考虑进去了啊，旋转镜像等都是微笑变化，相对于另一个图片来说。</p><p>惩罚项和提前终止训练过程都是为了让参数不那么复杂，参数w是经过损失函数训练的，往损失函数小的方向训练。那么，给损失函数加上惩罚项，也就是<strong>参数本身的绝对值L1或者参数的平方L2</strong>，参数变的特别大后，损失函数也会变大，反而抑制住参数的继续膨胀。参数越大说明某一层越复杂，会导致过拟合。</p><p>损失函数就是预测数据和真实数据的误差的函数，可以是距离，也可以是最小二乘，可以是很多表示方式……</p><p>激活函数和损失函数可以是线性回归里的概念</p><p>反向传播和前向传播构成一次训练，我的理解是反馈？</p><p>接下来是一系列问题：梯度消失，梯度爆炸，收敛速度，计算开销</p><p>和一系列解决办法：梯度裁剪，残差网络，权重初始化，归一化，动量法，RMSProp,Adam，mini-batch</p><p>CNN:全连接层：每一层都与前一层全部链接，会导致参数量过大。准确但不灵活，修改一个数，就会产生很大的变化。卷积层：卷积核是未知的，需要训练的参数。可以提取局部特征，减少计算量。池化层：没有参数，可以减少卷积层后的参数量。</p><p>表示文字的时候，可以one-hot独热编码，也可以词嵌入。RNN：循环，x1拿出一个隐藏h1，然后输出得y1，同时h1参与到x2里，输出得y2，同时也输出h2，给下一部分使用。</p></blockquote><p>OK啊，也是，虽然它没讲GAN，但是还是很顺畅，很顺畅。我得趁热打铁，但是有点注意力不集中了，可恶。</p><p>刷个牙去……冥想完了，感觉还不错。</p>]]></content>
+      
+      
       
     </entry>
     
@@ -92,9 +105,22 @@
     
     
     <entry>
-      <title>如何学习</title>
-      <link href="/2025/05/18/%E7%94%9F%E6%B4%BB/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0/"/>
-      <url>/2025/05/18/%E7%94%9F%E6%B4%BB/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0/</url>
+      <title></title>
+      <link href="/2025/05/19/%E7%81%B5%E6%84%9F/"/>
+      <url>/2025/05/19/%E7%81%B5%E6%84%9F/</url>
+      
+        <content type="html"><![CDATA[<ol><li>西山变电所，外面能看到四台空调外机，其中两台正在工作，此时室外温度22度。联想电的传输中转是否需要温度控制，或者保持恒温，温度对电的影响；联想手机在低温时关机，是否是电池等不耐低温。</li><li>第一次用烘干机，希望制作一个界面，输入布料类型，输出为烘干时间、是否可以烘干、烘干温度等。难点在于，我不知道衣服咋烘，或者引入个大语言模型）但是不太可信）或者我还是去干洗店问问吧……之前查过烘干规范，但是没找到太多信息。对了，我可以去外国看，那边不流行晒被子，洗烘行业非常发达，应该有类似的软件。</li><li>出门旅游，想制作一个apk，能搜索攻略，能接入地图，同时有时间安排和现成的攻略之类，最好支持搜索功能，支持后期用户写入……</li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于学习的小品一则^-^</title>
+      <link href="/2025/05/18/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2025/05/18/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0/</url>
       
         <content type="html"><![CDATA[<p>最近在思考怎么才算学习，怎么算学会了。为这个问题看了一点书也试着投入实践了（指电磁场考试），刚考完有点想法，在这里做个记录。</p><p>”怎么学习“这个话题很大很大，可以分很多种类讨论，比如学习一门科目（电磁场），学习一项技能（骑自行车），学习做一个东西（折纸、博客）……想到啥写啥了，这里先唠唠电磁场，后续有了想说的会补充。</p><hr><h4 id="电磁场学习"><a href="#电磁场学习" class="headerlink" title="电磁场学习"></a>电磁场学习</h4><p>电磁场是门学时蛮多战线蛮长的课，但是这里的学习（很惭愧地）尤指“三天”的突击。之前课堂也不是完全没有思考，但是拖到考试临近，就都忘记了。在复习的三天内，时间是这么安排的：第一天从早复习到晚；第二天没有复习；第三天晚上开始，复习到凌晨，睡了一下，再从早上复习到考试。</p><p>下面就用几个小故事，来描述这一路的兜兜转转和跌跌撞撞吧。碧螺春沏好了，请坐。</p><h5 id="1、第一节课—-gt-学了！忘了！"><a href="#1、第一节课—-gt-学了！忘了！" class="headerlink" title="1、第一节课—-&gt;学了！忘了！"></a>1、第一节课—-&gt;学了！忘了！</h5><p>在第一节课的时候，我野心勃勃，目光炯炯，几乎写满了笔记。自认为什么梯度，通量，散度，环量，旋度……相互依存，逻辑通顺，听得我酣畅淋漓，拍案叫好，肯定是懂了！两三周以后，做作业题做到第二个就被卡住了，遂提问AI……（dddd，从此作业只靠AI了）</p><p>结果是，在复习的时候，笔记不知所踪，我对这三个度的了解，只停留在知道他们的名字的阶段，场面一度尴尬。</p><blockquote><p>分析一下存在的问题：</p><p>首先笔记没有发挥作用。我有写笔记的习惯（要么是学到兴致处，画上一两笔鬼画符；要么是自我感动，从目录开始照抄），但是没有看笔记的习惯（只图学的那一刹那思路通畅，不求未来用时方便），所以就算没丢应该也不会去看。</p><p>那么这就是可以改进的地方了，我做笔记的目的是什么，为了后续查找方便，还是记录灵感思维导图？既然做了也不看，那就要考虑删掉这段无用的事项了。</p><hr><p>其次在两三周后做题，（因为本人才发现在网上留了作业），遇到一点困难就不做了，这个可以确定是要改正的坏习惯。</p><p>我挂过两门课，这件事情总会对人产生影响，陷入“我肯定学不会，肯定考不好（这个算潜移默化的丢失自信）”和“考试题看起来有点简单（实际某人第一问都不会做，所以只能看起来简单，而不是做起来简单了）”的诅咒中。</p><p>那么一个时而自卑自伤，时而自大自傲的，并不稳定的我，在遇到困难时会想，”这个太难了我不会，找找答案去“，以及“这个看起来很简单，答案也很简单，那我应该没问题，抄抄答案去”。这便需要一些勇气来对抗以往的挫折。</p></blockquote><h5 id="2、让我从第一章开始复习……"><a href="#2、让我从第一章开始复习……" class="headerlink" title="2、让我从第一章开始复习……"></a>2、让我从第一章开始复习……</h5><p>复习的时候，第一天计划做题，从矢量分析做到了静电场；第三天从静电场做到了恒定电场。磁场，平面波，电磁场都是略看，因为没有做题，自然也不记得公式，考试时只得编公式了QAQ。</p><p>看起来挺正常，和题目没啥关系是不是。实际上，在我每次开始一段复习时，都会想从第一章入手，然后不断重复抄熟的公式和理清了的内容。比如我从一个月前就打算复习，那就从第一章开始吧；我想写一份复习笔记，那就从第一章开始吧；我在散步想捋捋各个物理量的关系，那就从第一章开始吧；我觉得我不能只记住公式，要理解，那就再学一遍吧，从第一章开始吧……</p><p>结果就是，考试题，第一章，占比，20/100。</p><blockquote><p>分析一下存在的问题：</p><p>首先，我做事情很反复，想法很多。复习思路一直在调整（从做题为主到公式为主到笔记为主……），但不变的是，每次调整都从第一章开始。这有点完美主义了，总要学的特别好才进行下一章。也不是说追求学懂有什么问题，只是说某人还有13个小时就要考试了（苦笑）。</p><p>其次，没有分配重点。我也知道后面内容繁多，但是我沉醉于学第一章的快乐，像无头苍蝇一样原地打转。因此，做计划，做有效的计划，是必要的！！！</p></blockquote><h5 id="3、致缩水的目标"><a href="#3、致缩水的目标" class="headerlink" title="3、致缩水的目标"></a>3、致缩水的目标</h5><p>距离考试两个月，我的目标是B站马西奎教授的网课，四十个小时。看了六集，结束了。</p><p>距离考试一个月，我的目标是自学《Field and Wave Electromagnetics》，据说是很棒的教材。翻译了六页，结束了。</p><p>距离考试半个月，我的目标是每天四小时学习电磁场。坚持了六个小时，结束了。</p><p>距离考试三天，我的目标是一天学两章。在三天只学了两天，两天只学了一章之后，进考场了。</p><p>故事不会结束的，因为还有补考，那么今天就是距离考试两个月……新的循环可以开始了……</p><p>确实，新一个循环开始了。和花神诞祭一样，有点绝望了，西西弗斯原来这么累。</p><blockquote><p>分析一下存在的问题：</p><p>显而易见，我被目标吓到了。自学英文教材难度对于现在的我来说，有如登天梯。四十小时的网课听起来还可以，毕竟两个月。但一集视频我需要花两倍的时间，反复暂停拉条才能看懂。</p><p>目标可以消除模糊，当接下来的时间只有一件事情要做时，就会全神贯注，因此目标是及其重要的。但，过难的目标完全无效！其实本人不会设目标，这次考试也调整了好几次，才会每次都从第一章开始……</p><p>小时候，语文听写错了很多，在回家的路上，我和妈妈说，我要每天听写20个字词，我要立下这个伟大的目标。妈妈当时说，“那就看你能不能坚持了”。方言，带点教训的语气。我就一次都没做。结果长大了，还是不会定目标，总是一口吃个胖子再被噎死的类型。像中了诅咒一样（苦笑）。（如果有人看到了，我的初衷是记录一些东西，没有说妈妈不好的意思，这句话背后是一条很有用的建议——坚持。也请大家当故事看就好）</p></blockquote><p>最后，走进考场前，我定的目标是，尽量专注地，不思考周围声音，不思考老师走动，不思考学习方法，只是安静地做题就好。差不多做到了80%吧，只不过当时深呼吸了好几次，情绪还是很难压的，考完也没心情吃饭了<del>（本人热爱吃饭）</del>。</p><p>之所以定这个目标，而不是及格之类，是因为我挂了太多次，可能对考试恐惧了。那么这次考试是一次很好的机会，重现令人恐惧的场景，更积极地应对它，以解救被困住的、过去的自己。好像是心理学里的一种疗法，希望下次考试会好一点。</p><p>下次来了，并没有好。</p><p>总结一下子，学习最主要的还是学，嗯，质朴一点，其他的方法论都扔掉也行。至于学是什么，大概就是别人说一句话，你听懂了，还能对其他人说出来这些话，以后哭的时候能想起来一些话，嗯，就这样。至于到底怎么是学习，嗯，不知道，我的字典里甚至可以删掉这个字，见仁见智的事情，既然大家都是人，应该会怎么学习。</p><p>也可以说多一点，类似机器学习的输入与输出，理解与应用，费曼学习法，“兴趣”，有耐心持之以恒，做题检错。</p><p>做题简单一点，开拓难一点。不过我现在连做题都做不到的。（忠告？哭的时候不适合学习）</p><p>大脑太奇怪了，再难过都能忘掉然后晕过去。有超忆症的人好辛苦。</p><p>大伟哥也很幸运，zs也很幸运，不管怎样都有可以失去的东西，相比之下，游戏剧情惨烈得多。给好的以坏，给善的以恶，给正直者以欺瞒，给纯粹者以毁灭，给真挚者以背叛，给骄傲者以贫瘠，给通透者以执念。人们总是热衷于看最宝贵难得之物被粉碎，都是会痛的啊。具体看完再评判吧，毕竟放在现实里，我会躲开再也不接触他们，在游戏里没那么反感，奇怪。</p>]]></content>
       
@@ -118,8 +144,8 @@
     
     <entry>
       <title>CUDA</title>
-      <link href="/2025/05/09/%E7%94%9F%E6%B4%BB/pytorch%E8%AE%B0%E5%BD%95/"/>
-      <url>/2025/05/09/%E7%94%9F%E6%B4%BB/pytorch%E8%AE%B0%E5%BD%95/</url>
+      <link href="/2025/05/09/pytorch%E8%AE%B0%E5%BD%95/"/>
+      <url>/2025/05/09/pytorch%E8%AE%B0%E5%BD%95/</url>
       
         <content type="html"><![CDATA[<p>现在：</p><p>要构建语音情绪识别，<a href="https://gitcode.com/gh_mirrors/sp/SpeechEmotionRecognition-Pytorch?utm_source=csdn_github_accelerator">项目首页 - SpeechEmotionRecognition-Pytorch:基于Pytorch实现的语音情感识别 - GitCode</a></p><p>所以下载pytorch。<a href="https://blog.csdn.net/m0_48335178/article/details/146447102">PyCharm中使用pip安装PyTorch（从0开始仅需两步）-CSDN博客</a></p><p>因为上面的文档里，我有GPU，版本最高CUDA 12.6.所以转去下载CUDA。</p><p><a href="https://pytorch.org/get-started/locally/">Get Started</a>这个地方可以下载pytorch，不过要选择CUDA 12.6</p><p>现在正在下载CUDA 12.6.0 <a href="https://developer.nvidia.com/cuda-12-6-0-download-archive?target_os=Windows&amp;target_arch=x86_64&amp;target_version=11&amp;target_type=exe_local">CUDA Toolkit 12.6 Downloads | NVIDIA Developer</a></p><p>后续还需要下载CUDNN<a href="https://developer.nvidia.com/rdp/cudnn-archive">cuDNN Archive | NVIDIA Developer</a></p><p>CUDA toolkit?<a href="https://blog.csdn.net/m0_45447650/article/details/123704930">CUDA安装教程（超详细）-CSDN博客</a></p>]]></content>
       
@@ -142,59 +168,9 @@
     
     
     <entry>
-      <title>电磁场-题</title>
-      <link href="/2025/05/05/%E9%A2%98%E7%9B%AE/%E7%94%B5%E7%A3%81%E5%9C%BA-%E9%A2%98/"/>
-      <url>/2025/05/05/%E9%A2%98%E7%9B%AE/%E7%94%B5%E7%A3%81%E5%9C%BA-%E9%A2%98/</url>
-      
-        <content type="html"><![CDATA[<h3 id="第一章：矢量分析"><a href="#第一章：矢量分析" class="headerlink" title="第一章：矢量分析"></a>第一章：矢量分析</h3><h4 id="1、方向导数"><a href="#1、方向导数" class="headerlink" title="1、方向导数"></a>1、方向导数</h4><p><em>标量函数$u=3x^{2}y^{2}z^{2}$在点p(1,1,-1)处沿哪个方向导数最大？并求出该方向导数的值</em></p><blockquote><p>方向导数：</p><p>$u$在$P_{0}$处可微时（u对xy的偏导存在，并且在这点也连续。）</p><p>标量场$u(P)$，$P_{0}$是其中一点， $\vec{l}$是方向，连接$P_{0}和P_{1}$,方向导数是$P_{1}$沿$\vec{l}$方向趋近$P_{0}$的极限：</p><script type="math/tex; mode=display">l =(cos\alpha,cos\beta,cos\gamma)</script><p>其中$cos\alpha^{2}+cos\beta^{2}+cos\gamma^{2}=1$,</p><script type="math/tex; mode=display">\frac{du}{dl}\mid_{P_{0}}=\lim_{\Delta l \to 0}\frac{u(P_{1})-u(P_{0})}{\Delta l}</script><script type="math/tex; mode=display">\frac{du}{dl}=\frac{\partial u}{\partial x}\frac{dx}{dl}+\frac{\partial u}{\partial y}\frac{dy}{dl}+\frac{\partial u}{\partial z}\frac{dz}{dl}=cos\alpha\frac{\partial u}{\partial x}+cos\beta\frac{\partial u}{\partial y}+cos\gamma\frac{\partial u}{\partial z}</script><p>接下来引入哈密顿算子：</p><script type="math/tex; mode=display">\nabla=\vec{e_{x}}\frac{\partial }{\partial x}+\vec{e_{y}}\frac{\partial }{\partial y}+\vec{e_{z}}\frac{\partial }{\partial z}\quad 直角坐标系</script><script type="math/tex; mode=display">\nabla=\vec{e_{\rho}}\frac{\partial }{\partial x}+\vec{e_{\phi}}\frac{\partial }{\rho\partial \phi}+\vec{e_{z}}\frac{\partial }{\partial z}\quad圆柱坐标系</script><script type="math/tex; mode=display">\nabla=\vec{e_{r}}\frac{\partial }{\partial r}+\vec{e_{\theta}}\frac{\partial }{r\partial \theta}+\vec{e_{\phi}}\frac{\partial }{rsin\theta\:\partial \phi}\quad球坐标系</script><script type="math/tex; mode=display">\frac{du}{dl}=\nabla u\cdot \vec{e_{l}}</script><p>梯度是方向导数最大的地方，也是变化最剧烈的方向。方向导数最大值是$\frac{du}{dl}=\nabla u\cdot \mid\vec{l}\mid$，方向是$\vec{l}$的方向。</p></blockquote><p>解：</p><script type="math/tex; mode=display">\frac{du}{dl}\mid_{(1,1,-1)}=cos\alpha6xy^{2}z^{2}+cos\beta6x^{2}yz^{2}+cos\gamma6x^{2}y^{2}z=6cos\alpha\vec{a_{x}}+6cos\beta\vec{a_{y}}-6cos\gamma\vec{a_{z}}</script><script type="math/tex; mode=display">grad\;u =6\vec{a_{x}}+6\vec{a_{y}}-6\vec{a_{z}}</script><p>最大值是$6\sqrt{3}$.沿（1,1，-1）方向。</p><hr><h4 id="2、方向导数"><a href="#2、方向导数" class="headerlink" title="2、方向导数"></a>2、方向导数</h4><p><em>求标量函数$\varphi=2x^{2}y+3y^{2}z+xz^{2}$在点(1, -1, 1)处沿矢量$\vec{l}=yz\vec{a_{x}}+xz\vec{a_{y}}+xy\vec{a_{z}}$方向的方向导数。</em></p><p>解：</p><script type="math/tex; mode=display">\frac{d\varphi}{dl}\mid_{(1,-1,1)}=(4xy+z^{2})\:cos\alpha+(6yz+2x^{2})cos\beta+(3y^{2}+2xz)cos\gamma=-3cos\alpha-4cos\beta+5cos\gamma</script><script type="math/tex; mode=display">\vec{l}\mid_{(1,-1,1)}=-\vec{a_{x}}+\vec{a_{y}}-\vec{a_{z}}</script><script type="math/tex; mode=display">cos\alpha=-\frac{\sqrt{3}}{3};cos\beta=\frac{\sqrt{3}}{3};cos\alpha=-\frac{\sqrt{3}}{3}</script><p>代入得方向导数为$2\sqrt{3}$.</p><hr><h4 id="3、通量"><a href="#3、通量" class="headerlink" title="3、通量"></a>3、通量</h4><p><em>空间中包括点（x1,y1,z1）的平面方程为l(x-x~1~)+m(y-y~1~)+n(z-z~1~)=0 其中l,m和n是垂直于该平面的单位矢量的方向余弦。已知矢量$\vec{F}=a_{x}+2a_{y}+3a_{z}$，求矢量<strong>F</strong>穿过该平面顶点处于点（0,0,2）,（2,0,2）,（2,2,0）和（0,2,0）的正方形区域的通量$\int_{S}\vec{F}\cdot ds$</em></p><blockquote><p>$l(x-x_{1})+m(y-y_{1})+n(z-z_{1})=0$是平面的点法式方程，$(l\;m\;n)$是法向量，$(x_1\;y_{1}\;z_1)$是这个平面上的任意一个点。</p></blockquote><p>代入点（0,0,2），可以得到$l=0,m=n$，并且$l^{2}+m^{2}+n^{2}=1$再代入任意一个点，可以得到法向量为$\vec{n}=(0,\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2})$。</p><script type="math/tex; mode=display">\int_S{\vec{F}\cdot d\vec{S}}=\int_S{(\vec{a_{x}}+2\vec{a_{y}}+3\vec{a_{z}})\cdot\vec{n} dS}=4\sqrt{2}\cdot(l+2m+3n)=20</script><h4 id="4、环量和旋度"><a href="#4、环量和旋度" class="headerlink" title="4、环量和旋度"></a>4、环量和旋度</h4><p>已知半径为a,载直流为I的无限长直导线在垂直距离为<img src="https://mooc1.chaoxing.com/ananas/latex/p/148" alt="img">处产生的磁场强度的表达式为：<img src="https://mooc1.chaoxing.com/ananas/latex/p/1084988" alt="img"><img src="https://mooc1.chaoxing.com/ananas/latex/p/1085009" alt="img">试求H的环量和旋度。</p><blockquote></blockquote><h3 id="考试："><a href="#考试：" class="headerlink" title="考试："></a>考试：</h3><p>（我写在这里，悄咪咪的，全凭记忆，不一定准）</p><ol><li>两种介质在z=0处分开，给出$\varepsilon_{1}、\varepsilon_{2}$,给出介质1的场强，求介质2的场强。考察边界条件</li><li>圆形双平行板电容，两板间距很小，圆心到板的半径已知。在板中通时变电压$V=V_{0}e^{at}$（是一个常数乘以指数的形式，具体数值忘了）。求极化电流$J_{e}$和$H$</li><li>给出电磁波，$\vec{E}=\vec{a_{x}}100sin(\pi\omega-zt)+\vec{a_{y}}100cos(\pi\omega-zt)$,求波长，频率；求$\vec{H}$的矢量表达式；求极化方式；改成$\mu_{0},\varepsilon_{0}\varepsilon_{r}$，波数变成3π，求</li><li>圆形导体柱，无限长，半径为a,介电常数为$\varepsilon_{0}$,外面有圆环状介质，介质最外端到圆心距离为b，介电常数为$\varepsilon$,求空间各区域的E，D；求介质层的电位函数；求介质层极化电流体密度；求能量密度$\omega_{e}$</li><li>给出电位边界条件，求空间中电位的分布。（宽a 高b 无限长，在x=a,y=2/b到b的板上有U0，其余边界电位为0）</li><li>给出两个螺线管L1通电为I，L2，已知长度相同0.6米，L2套在L1外，厚度不计，匝数分别为N1,N2，求自感互感，用安培环路定理求H还是B来这，后面忘了</li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 题目 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 题目 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于hexo部署图片失败问题的解决</title>
-      <link href="/2025/05/04/bug%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%85%B3%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/"/>
-      <url>/2025/05/04/bug%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%85%B3%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/</url>
-      
-        <content type="html"><![CDATA[<h5 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h5><p>使用hexo与github.io展示博客，使用Typora编写博客的markdown文件。在编写md文件的过程中，图片可以在Typora以及VS Code中显示，但是无法在github.io网页上显示，只有残缺的图标，如下图所示：</p><p><img src="https://dream-675.github.io/img/图像报错-1.jpg" /></p><h5 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h5><p>右键打开网页源码，发现这么几行代码：</p><p><img src="https://dream-675.github.io/img/图像报错-2.jpg" /></p><p>图中蓝色的，有下划线的部分应该是调用的图片地址，正常情况下点开会出现图片。</p><p><img src="https://dream-675.github.io/img/图像报错-3.jpg" /></p><p>打开蓝色的链接“【作业】电子测量技术.assets/电子测量技术-du.jpg”，出现404界面，说明图片路径不存在。</p><p>那么，有没有一种链接，可以在网上打开呢？我的封面图可以正常加载，也就是说/img/xxx.jpg这个路径是有用的。于是发现<a href="https://dream-675.github.io/img/keben.jpg">https://dream-675.github.io/img/keben.jpg</a>  这个地址果然存在图片。</p><p>于是在编写的时候换个思路，直接<strong>使用绝对地址</strong>，果然页面成功加载图片！</p><h5 id="使用方法："><a href="#使用方法：" class="headerlink" title="使用方法："></a>使用方法：</h5><p>1、设置typora，文件-偏好设置-图像，并按照下图设置。</p><p><img src="https://Dream-675.github.io/img/图像报错-4.jpg"/></p><p>2、在编写markdown文件时，输入</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://你的仓库名.github.io/img/xxx.jpg&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure><p>3、在blog目录下，git三连，发布的博客是可以正常显示图片的。</p><h5 id="Note："><a href="#Note：" class="headerlink" title="Note："></a>Note：</h5><ol><li>在之前的反复尝试中，经过了很多次的hexo generate &amp;&amp; hexo deploy，因此图片被上传到了github库里的Img文件夹上，因此输入绝对地址有效。如果第一次编写博客，图片还未上传，使用这种绝对路径是没办法在typora里预览的。所以这并不是最好的解决方法，只是我尝试之后找到的唯一可行的方案。祝你没有遇到这些问题。</li><li>我还尝试过Typora设置相对路径为主，并且将图片复制到文件名的文件夹中；在config.hml文件搜索post_asset_folder: false改为true。（这个意思是在新建hexo new “twst” 博客时，生成博客名的文件夹，储存图片。）理论上，Typora把图像复制到“twst”的文件夹，应该是能用的，但是会显示下图的问题，有链接，点进去是404。相对路径需要../导航到到上一级，./导航到本级，<del>可能不太符合hexo的语法</del>（个人猜测）。</li><li>还有一种解决思路是PicGo自动部署图片，下载后发现图片上传失败，估计是配置的问题，暂时没搞明白。</li></ol><p>总结下来，deepseek在我手里发挥不出太大的价值（我不太会总结问题喵）。B站和前人博客千岁。冷静思考不一样的解决方法万岁。</p><hr><h5 id="附录：常用git-bash命令"><a href="#附录：常用git-bash命令" class="headerlink" title="附录：常用git bash命令"></a>附录：常用git bash命令</h5><figure class="highlight plaintext"><figcaption><span>bash</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;your_blog_name&quot;   #创建新博客</span><br><span class="line">hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy  #hexo三连，清除缓存，生成文件，部署到github</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> bug及解决方案 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> bug及解决方案 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>关于hexo部署图片失败问题的解决</title>
-      <link href="/2025/05/04/bug%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%85%B3%E4%BA%8Ehexo%E4%B8%8Egithub%E5%BB%BA%E7%AB%8B%E8%BF%9E%E6%8E%A5%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/"/>
-      <url>/2025/05/04/bug%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%85%B3%E4%BA%8Ehexo%E4%B8%8Egithub%E5%BB%BA%E7%AB%8B%E8%BF%9E%E6%8E%A5%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/</url>
+      <link href="/2025/05/04/%E5%85%B3%E4%BA%8Ehexo%E4%B8%8Egithub%E5%BB%BA%E7%AB%8B%E8%BF%9E%E6%8E%A5%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/"/>
+      <url>/2025/05/04/%E5%85%B3%E4%BA%8Ehexo%E4%B8%8Egithub%E5%BB%BA%E7%AB%8B%E8%BF%9E%E6%8E%A5%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/</url>
       
         <content type="html"><![CDATA[<h5 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h5><p>Windows系统，使用hexo与github.io展示博客，运行下述指令测试连接：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure><p>出现下图所示问题：</p><p><img src="https://dream-675.github.io/img/bug-%E8%BF%9E%E6%8E%A5-1.jpg" /></p><h5 id="解决措施："><a href="#解决措施：" class="headerlink" title="解决措施："></a>解决措施：</h5><ol><li>检查网络设置，例如我使用了加速器，关掉加速器后正常运行。</li><li><a href="https://www.cnblogs.com/oldboyooxx/p/10387150.html">服务器22端口连接超时 ssh: connect to host <em>*</em> port 22: Operation timed out - oldboyooxx - 博客园</a></li><li><a href="https://blog.csdn.net/the__future/article/details/130038818">关于本地git通过ssh链接github时 time out问题的解决方法_github timeout-CSDN博客</a></li></ol>]]></content>
       
@@ -217,11 +193,61 @@
     
     
     <entry>
-      <title>关于选择《sky》及其二创作为背景图的解释</title>
-      <link href="/2025/04/27/%E7%94%9F%E6%B4%BB/%E6%B5%85%E8%B0%88sky%E4%B8%8Ejourney/"/>
-      <url>/2025/04/27/%E7%94%9F%E6%B4%BB/%E6%B5%85%E8%B0%88sky%E4%B8%8Ejourney/</url>
+      <title>关于hexo部署图片失败问题的解决</title>
+      <link href="/2025/05/04/%E5%85%B3%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/"/>
+      <url>/2025/05/04/%E5%85%B3%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/</url>
       
-        <content type="html"><![CDATA[<p><del>总之以下内容就是没啥主题，不知所云，云里雾里，里外不是文，可恶</del></p><p>温馨治愈的风景，乖巧可爱的光崽<sup><a href="#fn_1" id="reffn_1">1</a></sup>在这个网站随处可见。之所以选择sky的插图及二创<sup><a href="#fn_2" id="reffn_2">2</a></sup>作为背景图，是因为sky这款游戏温暖了我很久，一次又一次托起我的情绪。</p><p><img src="https://dream-675.github.io/img/skygame.jpeg" /></p><h3 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h3><p>大概是十六个月前，彼时的我沉浸于搜索“抑郁”等字眼，热衷于研究星座，人格，<del>毕竟人在失意的时候容易研究玄学</del>。依稀记得当时有一个搜索词条是，sky是很致郁的游戏，所以我很果断地下载了这款游戏，成为了一名光之子。而journey是在刚下载steam不久，关注着各种游戏促销信息。看到journey历史最低9元，果断入库！！！</p><p>我玩游戏一般是先在网上查找各种游戏解说，心动后再下载体验。在23年底，作为一个萌新搜索到的sky词条，都是讲景色有多美，以及六个地图的通关攻略。（现在经常刷到的虐恋，抽象，剧情视频当时一点没看到，也很符合光遇区该有的流量了^_^）journey给我带来的第零印象就更丰富了，讲人生旅程，讲生命轮回，讲沿途风景……</p><h3 id="旅程"><a href="#旅程" class="headerlink" title="旅程"></a>旅程</h3><p>关于sky和journey，尤其是journey，我认为“旅程”是这两款游戏里很关键的地方。</p><p>在sky里，光崽从出生，游历六个世界，“晨岛，云野，雨林，霞谷，墓土，禁阁”，最后去伊甸献祭。</p><p>没什么可说的了，我词穷了，我没办法再感受到世界的美了，正如我没办法再感受到我的美一样，现在真的是草履虫的大脑了，抱歉。</p><blockquote id="fn_1"><sup>1</sup>. sky《光•遇》这款游戏中对玩家角色的爱称，诸如光之子，光崽。<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a></blockquote><blockquote id="fn_2"><sup>2</sup>. 二次创作，是指使用了已存在著作物的文字、图像、影片、音乐或其他艺术作品。这里指非官方的，基于sky这款游戏的绘画作品。<a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#8617;</a></blockquote>]]></content>
+        <content type="html"><![CDATA[<h5 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h5><p>使用hexo与github.io展示博客，使用Typora编写博客的markdown文件。在编写md文件的过程中，图片可以在Typora以及VS Code中显示，但是无法在github.io网页上显示，只有残缺的图标，如下图所示：</p><p><img src="https://dream-675.github.io/img/图像报错-1.jpg" /></p><h5 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h5><p>右键打开网页源码，发现这么几行代码：</p><p><img src="https://dream-675.github.io/img/图像报错-2.jpg" /></p><p>图中蓝色的，有下划线的部分应该是调用的图片地址，正常情况下点开会出现图片。</p><p><img src="https://dream-675.github.io/img/图像报错-3.jpg" /></p><p>打开蓝色的链接“【作业】电子测量技术.assets/电子测量技术-du.jpg”，出现404界面，说明图片路径不存在。</p><p>那么，有没有一种链接，可以在网上打开呢？我的封面图可以正常加载，也就是说/img/xxx.jpg这个路径是有用的。于是发现<a href="https://dream-675.github.io/img/keben.jpg">https://dream-675.github.io/img/keben.jpg</a>  这个地址果然存在图片。</p><p>于是在编写的时候换个思路，直接<strong>使用绝对地址</strong>，果然页面成功加载图片！</p><h5 id="使用方法："><a href="#使用方法：" class="headerlink" title="使用方法："></a>使用方法：</h5><p>1、设置typora，文件-偏好设置-图像，并按照下图设置。</p><p><img src="https://Dream-675.github.io/img/图像报错-4.jpg"/></p><p>2、在编写markdown文件时，输入</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://你的仓库名.github.io/img/xxx.jpg&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure><p>3、在blog目录下，git三连，发布的博客是可以正常显示图片的。</p><h5 id="Note："><a href="#Note：" class="headerlink" title="Note："></a>Note：</h5><ol><li>在之前的反复尝试中，经过了很多次的hexo generate &amp;&amp; hexo deploy，因此图片被上传到了github库里的Img文件夹上，因此输入绝对地址有效。如果第一次编写博客，图片还未上传，使用这种绝对路径是没办法在typora里预览的。所以这并不是最好的解决方法，只是我尝试之后找到的唯一可行的方案。祝你没有遇到这些问题。</li><li>我还尝试过Typora设置相对路径为主，并且将图片复制到文件名的文件夹中；在config.hml文件搜索post_asset_folder: false改为true。（这个意思是在新建hexo new “twst” 博客时，生成博客名的文件夹，储存图片。）理论上，Typora把图像复制到“twst”的文件夹，应该是能用的，但是会显示下图的问题，有链接，点进去是404。相对路径需要../导航到到上一级，./导航到本级，<del>可能不太符合hexo的语法</del>（个人猜测）。</li><li>还有一种解决思路是PicGo自动部署图片，下载后发现图片上传失败，估计是配置的问题，暂时没搞明白。</li></ol><p>总结下来，deepseek在我手里发挥不出太大的价值（我不太会总结问题喵）。B站和前人博客千岁。冷静思考不一样的解决方法万岁。</p><hr><h5 id="附录：常用git-bash命令"><a href="#附录：常用git-bash命令" class="headerlink" title="附录：常用git bash命令"></a>附录：常用git bash命令</h5><figure class="highlight plaintext"><figcaption><span>bash</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;your_blog_name&quot;   #创建新博客</span><br><span class="line">hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy  #hexo三连，清除缓存，生成文件，部署到github</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> bug及解决方案 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> bug及解决方案 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>随便唠唠</title>
+      <link href="/2025/04/27/%E9%9A%8F%E4%BE%BF%E5%94%A0%E5%94%A0/"/>
+      <url>/2025/04/27/%E9%9A%8F%E4%BE%BF%E5%94%A0%E5%94%A0/</url>
+      
+        <content type="html"><![CDATA[<p>我不得不写点什么了。</p><p><del>纯属虚构</del></p><p>如果你是本科生的话，可能可以想象，一场双语考试，两场专业比赛，三门研究生课程，四项运动会项目，还有关系微妙的同学or对手，漂浮不定的综测分数。</p><p>当一股脑的考试比赛项目铺天盖地的压下来，再条缕清晰地安置到A月B日，C月D日，C月E日这些名为ddl<sup><a href="#fn_1" id="reffn_1">1</a></sup>的小格子中；当你站在两条船上，但这两条船甚至要互相厮杀；当你到极限的时候，或许，被迫发现这不是极限……</p><p>我一瞬间有点接受无能，才明白努力有回报，已经是莫大的运气了。</p><p>在光遇里，我曾经做过很多人都会去做的事情，那就是到雨林淋雨，丢掉所有翅膀。一边心疼的听着失去翅膀的声音，一边期望有哪个小黑能来安慰自己一下，一下就好。幸运的是，“南鹿”点亮了我，并放下来一张桌子。我问，“什么算绝境？” 她答：“活不下去了，一点也活不下去了，算绝境。”于是我惊觉，我经历的根本不算什么。</p><p>而再次让我惊觉，我经历的根本不算什么的时候，可能就是现在吧。</p><p>我所有的理想都要屈服于厮杀的现实，因为我没有强大到可以守护这份理想的世界。</p><p>唯愿，天下努力，都有同等份量的回报。</p><p>我不得不学点什么了。</p><blockquote id="fn_1"><sup>1</sup>. dead line 截止日期，死线。<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于选择《sky》及其二创作为背景图的解释</title>
+      <link href="/2025/04/27/%E6%B5%85%E8%B0%88sky%E4%B8%8Ejourney/"/>
+      <url>/2025/04/27/%E6%B5%85%E8%B0%88sky%E4%B8%8Ejourney/</url>
+      
+        <content type="html"><![CDATA[<p><del>总之以下内容就是没啥主题，不知所云，云里雾里，里外不是文，可恶</del></p><p>温馨治愈的风景，乖巧可爱的光崽<sup><a href="#fn_1" id="reffn_1">1</a></sup>在这个网站随处可见。之所以选择sky的插图及二创<sup><a href="#fn_2" id="reffn_2">2</a></sup>作为背景图，是因为sky这款游戏温暖了我很久，一次又一次托起我的情绪。</p><p><img src="https://dream-675.github.io/img/skygame.jpeg" /></p><h3 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h3><p>大概是十六个月前，彼时的我沉浸于搜索“抑郁”等字眼，热衷于研究星座，人格，<del>毕竟人在失意的时候容易研究玄学</del>。依稀记得当时有一个搜索词条是，sky是很致郁的游戏，所以我很果断地下载了这款游戏，成为了一名光之子。而journey是在刚下载steam不久，关注着各种游戏促销信息。看到journey历史最低9元，果断入库！！！</p><p>我玩游戏一般是先在网上查找各种游戏解说，心动后再下载体验。在23年底，作为一个萌新搜索到的sky词条，都是讲景色有多美，以及六个地图的通关攻略。（现在经常刷到的虐恋，抽象，剧情视频当时一点没看到，也很符合光遇区该有的流量了^_^）journey给我带来的第零印象就更丰富了，讲人生旅程，讲生命轮回，讲沿途风景……</p><h3 id="旅程"><a href="#旅程" class="headerlink" title="旅程"></a>旅程</h3><p>关于sky和journey，尤其是journey，我认为“旅程”是这两款游戏里很关键的地方。</p><p>在sky里，光崽从出生，游历六个世界，“晨岛，云野，雨林，霞谷，墓土，禁阁”，最后去伊甸献祭。</p><p>啊啊啊啊啊俺来啦！！！！俺又活了！！！！我爱光遇！！！！</p><blockquote id="fn_1"><sup>1</sup>. sky《光•遇》这款游戏中对玩家角色的爱称，诸如光之子，光崽。<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a></blockquote><blockquote id="fn_2"><sup>2</sup>. 二次创作，是指使用了已存在著作物的文字、图像、影片、音乐或其他艺术作品。这里指非官方的，基于sky这款游戏的绘画作品。<a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#8617;</a></blockquote>]]></content>
       
       
       <categories>
