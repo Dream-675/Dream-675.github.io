@@ -1,0 +1,675 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>卫星通信复习D老师 | 十一的灵魂存放处</title><meta name="author" content="Eleven"><meta name="copyright" content="Eleven"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="卫星通信 CH1(V1)先修课程及参考书目本课的主要内容 CH1 卫星通信概论 CH2 卫星通信系统基本原理 CH3 卫星通信系统信号传输技术 CH4 卫星通信网及典型系统   CH1 卫星通信概论Introduction to Satellite Communications 本章主要内容 1.1 卫星通信的概念 1.2 卫星通信的发展 1.3 卫星通信系统概述   1.1 卫星通信的概念1.1">
+<meta property="og:type" content="article">
+<meta property="og:title" content="卫星通信复习D老师">
+<meta property="og:url" content="http://dream-675.github.io/2025/09/07/%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E5%A4%8D%E4%B9%A0deepseek%E8%AF%95%E9%AA%8C%E7%89%88/index.html">
+<meta property="og:site_name" content="十一的灵魂存放处">
+<meta property="og:description" content="卫星通信 CH1(V1)先修课程及参考书目本课的主要内容 CH1 卫星通信概论 CH2 卫星通信系统基本原理 CH3 卫星通信系统信号传输技术 CH4 卫星通信网及典型系统   CH1 卫星通信概论Introduction to Satellite Communications 本章主要内容 1.1 卫星通信的概念 1.2 卫星通信的发展 1.3 卫星通信系统概述   1.1 卫星通信的概念1.1">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://dream-675.github.io/img/challenge.jpeg">
+<meta property="article:published_time" content="2025-09-07T15:07:48.000Z">
+<meta property="article:modified_time" content="2025-09-07T14:09:02.965Z">
+<meta property="article:author" content="Eleven">
+<meta property="article:tag" content="学习">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://dream-675.github.io/img/challenge.jpeg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "卫星通信复习D老师",
+  "url": "http://dream-675.github.io/2025/09/07/%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E5%A4%8D%E4%B9%A0deepseek%E8%AF%95%E9%AA%8C%E7%89%88/",
+  "image": "http://dream-675.github.io/img/challenge.jpeg",
+  "datePublished": "2025-09-07T15:07:48.000Z",
+  "dateModified": "2025-09-07T14:09:02.965Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Eleven",
+      "url": "http://dream-675.github.io/"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/eleven.jpg"><link rel="canonical" href="http://dream-675.github.io/2025/09/07/%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E5%A4%8D%E4%B9%A0deepseek%E8%AF%95%E9%AA%8C%E7%89%88/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '卫星通信复习D老师',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/eleven.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/album/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/challenge.jpeg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">十一的灵魂存放处</span></a><a class="nav-page-title" href="/"><span class="site-name">卫星通信复习D老师</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/album/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">卫星通信复习D老师</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-09-07T15:07:48.000Z" title="发表于 2025-09-07 23:07:48">2025-09-07</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-09-07T14:09:02.965Z" title="更新于 2025-09-07 22:09:02">2025-09-07</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%AD%A6%E4%B9%A0/">学习</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">9.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>29分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="卫星通信-CH1-V1"><a href="#卫星通信-CH1-V1" class="headerlink" title="卫星通信 CH1(V1)"></a>卫星通信 CH1(V1)</h1><h3 id="先修课程及参考书目"><a href="#先修课程及参考书目" class="headerlink" title="先修课程及参考书目"></a>先修课程及参考书目</h3><h3 id="本课的主要内容"><a href="#本课的主要内容" class="headerlink" title="本课的主要内容"></a>本课的主要内容</h3><ul>
+<li>CH1 卫星通信概论</li>
+<li>CH2 卫星通信系统基本原理</li>
+<li>CH3 卫星通信系统信号传输技术</li>
+<li>CH4 卫星通信网及典型系统</li>
+</ul>
+<hr>
+<h2 id="CH1-卫星通信概论"><a href="#CH1-卫星通信概论" class="headerlink" title="CH1 卫星通信概论"></a>CH1 卫星通信概论</h2><p>Introduction to Satellite Communications</p>
+<h3 id="本章主要内容"><a href="#本章主要内容" class="headerlink" title="本章主要内容"></a>本章主要内容</h3><ul>
+<li>1.1 卫星通信的概念</li>
+<li>1.2 卫星通信的发展</li>
+<li>1.3 卫星通信系统概述</li>
+</ul>
+<hr>
+<h3 id="1-1-卫星通信的概念"><a href="#1-1-卫星通信的概念" class="headerlink" title="1.1 卫星通信的概念"></a>1.1 卫星通信的概念</h3><h4 id="1-1-1-基本概念-Concept-of-satellite"><a href="#1-1-1-基本概念-Concept-of-satellite" class="headerlink" title="1.1.1 基本概念 Concept of satellite"></a>1.1.1 基本概念 Concept of satellite</h4><ul>
+<li><strong>典型的卫星通信系统组成</strong> </li>
+<li><strong>什么是卫星？</strong> FIG a mirror in the sky.<ul>
+<li>绕地球无动力飞行</li>
+</ul>
+</li>
+<li><strong>卫星通信</strong>是指利用人造地球卫星作为中继站来转发或反射无线电信号，在两个或多个地球站之间进行通信的技术</li>
+<li><strong>宇宙通信的三种形式</strong><br>① 地球站与宇宙站之间的通信；<br>② 宇宙站与宇宙站之间的通信；<br>③ 通过宇宙站转发或反射实现的地球站之间的通信。卫星通信是宇宙通信的第三种形式。(通信双方能够看到卫星 FIG)</li>
+<li><strong>静止卫星 geostationary</strong> (FIG)</li>
+</ul>
+<h4 id="1-1-2-卫星通信的特点——优点"><a href="#1-1-2-卫星通信的特点——优点" class="headerlink" title="1.1.2 卫星通信的特点——优点"></a>1.1.2 卫星通信的特点——优点</h4><p>优点:<br>(1) <strong>通信距离远，且费用与通信距离无关</strong></p>
+<pre><code>- 它是电视转播的主要手段 及 越洋长途通信手段之一。
+- 地面微波中继或光缆通信的建设投资和维护使用费用都随距离而增加。
+</code></pre><p>(2) <strong>卫星通信系统与地面通信基础设施相对独立，网络路由简捷。</strong></p>
+<pre><code>- 卫星提供转发器，用户之间的通信不依赖于地面网
+</code></pre><p>(3) <strong>覆盖范围大，且便于实现多址联接通信。</strong></p>
+<pre><code>- 在卫星所覆盖的区域内，各地球站都能利用该卫星进行多方向、多个地面站之间的相互间的通信。同一信道可用于不同方向或不同区间。
+- 零仰角可覆盖地球表面的42％
+- 覆盖范围由卫星的高度和地球站允许的最小仰角决定。
+</code></pre><p>(4) <strong>通信频带宽，传输容量大，能传输的业务类型多</strong></p>
+<pre><code>- 使用微波频段，转发器数量多，点波束，极化等。
+</code></pre><p>(5) <strong>地面网络建设成本低，速度快。</strong></p>
+<p>(6) <strong>便于地球站自行检测所发射信号的质量</strong></p>
+<p>(7) <strong>机动灵活</strong></p>
+<pre><code>- 卫星通信系统的建立和使用受地理条件的限制较小，地球站可以建立在边远山区、海岛、汽车、飞机和舰艇上，甚至可以手持。
+</code></pre><p>(8) <strong>通信线路稳定可靠，传输质量高。</strong></p>
+<pre><code>- 卫星通信信号主要在自由（宇宙）空间传播，传输质量十分稳定，而且通常只经过卫星一次转发，其噪声较小。且不易受陆地灾害的影响。
+</code></pre><p>(9) <strong>统一的业务提供商有助于系统的均匀服务，并有利于新业务的接入。</strong></p>
+<h4 id="1-1-2-卫星通信的特点——缺点"><a href="#1-1-2-卫星通信的特点——缺点" class="headerlink" title="1.1.2 卫星通信的特点——缺点"></a>1.1.2 卫星通信的特点——缺点</h4><p>缺点:<br>(1) <strong>要有高可靠、长寿命的通信卫星。</strong></p>
+<pre><code>- 通信卫星的一次投资费用较高，在运行中难以进行检修。
+- 2009年2月9日 中星6B进入保护模式，自动关闭所有转发器，导致在该卫星上传输的中央电视台、中国教育电视台和23个省的卫视等共150套电视节目全部中断，卫星故障时间共47分钟。
+- 2009年 2月25日上午7时许，由于鑫诺1号卫星发生故障，信号中断数小时，导致全国多家媒体和通信公司受到影响。
+</code></pre><p>(2) <strong>静止卫星在地球两极地区有通信盲区，在高纬度地区的通信效果不好</strong> (FIG)</p>
+<p>(3) <strong>卫星上电能有限，天线增益不高；</strong></p>
+<pre><code>- 卫星的发射功率只能达到几十至几百瓦；因为覆盖范围大，所以天线增益低；
+- 要求地面站要有大功率发射机、低噪声接收机和高增益天线，这使得地球站比较庞大；
+</code></pre><p>(4) <strong>静止卫星的发射与控制技术较复杂，风险大，一次投资成本高。</strong></p>
+<pre><code>- 2017年6月19日，中星9A, 火箭异常，未能将卫星推入同步轨道。长征三号乙遥二十八火箭的故障，定位于三级滑行段姿控发动机滚动控制的推力器出现异常；通过实施10次轨道调整，终于将卫星成功“抢救”。
+- 2021年2月7日中星9A卫星已进入寿命末期，不能继续提供广播电视服务，并于2月7日离轨。
+</code></pre><p>(5) <strong>抗干扰性能差</strong> (Hijack 2002-6-23 鑫诺1号)</p>
+<p>(6) <strong>保密性能差</strong> (无线广播)</p>
+<p>(7) <strong>静止卫星通信具有较大的传输延迟和回声干扰</strong></p>
+<pre><code>- 单程距离约80000km，延时270ms；双程540ms
+- 静止卫星距地面的最近距离为35768km，最远距离（覆盖区边缘）41678km
+</code></pre><p>(8) <strong>静止卫星存在星蚀和日凌现象</strong></p>
+<pre><code>- **星蚀 (solar eclipse)** 和 **日凌中断 (sun transit outage)** 示意图
+- **日凌中断 (sun transit outage)**
+    - 它每年均会集中发生二次，即春分(3月21日)和秋分(9月23日)期间，每次约延续6天左右。每次发生时，卫星地球站会连续数天在同一时段内出现接收信号质量下降或通讯中断现象。因此，为保证卫星通信系统的稳定运行，应准确预测出日凌发生的日期和时间，以便及时采取有效措施防范和降低日凌现象对卫星通信电路的干扰。
+    - 日凌发生的日期和时间与卫星地球站所处的地理位置和其接收天线的电气特性有关
+        1. **日凌与纬度的关系**: 纬度影响每年日凌开始和结束的日期。春分时，地球站的纬度越高(北)，则日凌开始和结束的日期越早；秋分时，纬度越高，则日凌开始和结束的日期越晚。如果两地经度一样，那么纬度每相差3度左右，则这两地日凌开始和结束的日期就会相差一天。
+        2. **日凌与经度的关系**: 经度影响每天日凌开始和结束的时间。地球站的经度越往西，则每天日凌开始和结束的时间越早；经度越往东，则每天日凌开始和结束的时间越晚。如果两地纬度一样，那么经度每相差2度，则两地日凌开始及结束的时间会相差约1分钟。
+- **地球站电气特性与日凌的关系**:
+    - 对一个地球站来讲，其日凌持续时间从太阳进入其天线3dB波束宽度开始，以离开其3dB波束宽度结束。因此，地球站的日凌持续时间与其接收频率和天线口径大小有关。
+        1. **日凌与接收频率的关系**: 接收频率越高，天线3dB波束宽度越窄，则日凌持续时间越短。例如，对於2.4米天线: C波段3dB波束带宽:2.2° Ku波段3dB波束带宽:0.7°。地球每分钟转0.25度，则在天线口径同为2.4米时，C波段日凌持续时间比Ku波段长约6分钟。
+        2. **日凌与天线口径的关系**: 天线口径越大，3dB波束宽度越窄，则日凌持续时间越短。例如2.4米的C波段天线3dB波束宽度为2.2度，3.7米的C波段天线3dB波束宽度为1.4度，则2.4米天线的日凌持续时间比3.7米天线约长3分钟。
+- **亚洲卫星日凌计算** ( My office: 38 52.7873,N; 121 31.6153,E; 46.01m,H ) -&gt; 38.8797, 121.5269
+- **中国卫通的卫星角度计算**
+- **中国卫通的卫星日凌计算**
+- **星蚀 solar eclipse**
+    - 它每年均会集中发生两次，即春分和秋分前后各23天，星蚀期最大的问题是卫星无法使用主电源——太阳能电池，只能使用蓄电池。
+</code></pre><h4 id="1-1-3-卫星通信系统概述（Satellite-communication-system）"><a href="#1-1-3-卫星通信系统概述（Satellite-communication-system）" class="headerlink" title="1.1.3 卫星通信系统概述（Satellite communication system）"></a>1.1.3 卫星通信系统概述（Satellite communication system）</h4><p>系统包含4部分 </p>
+<ol>
+<li><strong>空间分系统（Space Segment）</strong><ul>
+<li>主要指通信卫星，对于多卫星组成的星座系统，存在星际链路。与地面之间有上行链路（Uplink）和下行链路（Downlink）。</li>
+</ul>
+</li>
+<li><strong>地面分系统 （Ground Segment）</strong><ul>
+<li>地面通信业务站、接口地球站（关口站）等。</li>
+</ul>
+</li>
+<li><strong>用户终端（Terrestrial Segment）</strong><ul>
+<li>包括直接面向用户的地球站终端（VSAT）、车载或手持终端等</li>
+</ul>
+</li>
+<li><strong>监控管理分系统（Control Segment）</strong><ul>
+<li><strong>遥测跟踪及指令分系统TT&amp;C</strong>: 对卫星进行跟踪测量，在卫星发射时，控制其准确进入静止轨道上的指定位置，并定期对卫星进行位置修正和姿态调整。<ul>
+<li>具体功能包括：在卫星发射阶段，星箭分离后，对卫星进行跟踪和定位，并对卫星天线和太阳能帆板的展开进行控制。对卫星的位置和轨道以及姿态进行校正，减小摄动造成的影响；在卫星寿命的最后阶段，实施轨道位置撤离、关闭发射机。</li>
+</ul>
+</li>
+<li><strong>管理站</strong>：对卫星转发器功率、卫星天线增益以及各地球站发射功率、射频频率和带宽等基本参数进行监控，以保证正常通信。</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li><p><strong>卫星通信线路 Satellite Communications links</strong></p>
+</li>
+<li><p><strong>使用的频段 Frequency allocation</strong></p>
+<ul>
+<li>工作频段的选择应着重考虑以下因素：<br>  ① 该频段电磁波应能穿过电离层，大气吸收小，传播损耗和外界附加噪声小。（晴天H2O和O2）<br>  ② 可供使用的带宽大，以便尽可能增大通信容量。<br>  ③ 较合理地使用无线电频谱，尽量避免与其它通信系统之间产生互相干扰。<br>  ④ 能充分利用现有的成熟技术和设备，并便于与现有通信设备接口。</li>
+<li>关系到卫星通信系统的性能：<br>  ① 通信容量、通信质量。<br>  ② 通信可靠性。<br>  ③ 设备的复杂程度，如天线尺寸、接收机的灵敏度等。<br>  ④ 卫星转发器的发射功率</li>
+<li>参考文献：续欣，刘爱军，汤凯，等. 卫星通信网络. 北京：电子工业出版社，2018.</li>
+<li><strong>卫星通信系统中使用的具体频段值</strong></li>
+<li><strong>具体频段值（根据地域的不同进行划分）</strong> </li>
+<li>为了有效使用频率和减小系统间的干扰，ITU将全球划分为三个区域：<ul>
+<li>一区为 非洲、欧洲及伊朗西部边境以西和中国北部边境以北的亚洲地区，</li>
+<li>二区包括 南美洲、北美洲、格陵兰、夏威夷，</li>
+<li>三区包括 亚洲其它地区、大洋洲，中国处在三区。</li>
+</ul>
+</li>
+<li>根据WRC有关文件的规定，在三区用于固定卫星广播业务的C、Ku部分频段:<ul>
+<li>最常用的为C和Ku:<ul>
+<li>C传输特性稳定，设备技术成熟；但是，带宽小，易于地面的微波频段互相干扰；</li>
+<li>Ku频段资料更为丰富，不会与地面微波系统互相干扰；但是，其雨雾衰减大，传输特性不够稳定；</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="1-2-卫星通信的发展"><a href="#1-2-卫星通信的发展" class="headerlink" title="1.2 卫星通信的发展"></a>1.2 卫星通信的发展</h3><p>Development of Satellite communications</p>
+<p>大致可分为五个阶段：</p>
+<ul>
+<li><strong>第一阶段：1945至1964，Birth of Satellite Communications</strong><ul>
+<li>The Second World War stimulated the expansion of two very distinct technologies—missiles and microwaves</li>
+<li>1945 英国的Arthur C.Clarke(1917-2008) He described this concept in a paper titled Extra-Terrestrial Relays – Can Rocket Stations Give Worldwide Radio Coverage? Published in Wireless World in October 1945</li>
+<li>1946年1月 Radar makes Round Trip To Moon, Video</li>
+<li>美国、前苏联先后研制出的低轨道无源、有源及准同步实验卫星</li>
+<li>1951年 微波中继 Bell Lab -&gt; Microwave Radio-Relay Skyway The system was designed to carry television signals as well as telephone messages PIC</li>
+</ul>
+</li>
+<li><strong>第二阶段：始于1965年</strong><ul>
+<li>国际卫星通信组织（INTELSAT）的静止卫星(EARLY BIRD 1965.4.16)开始提供全球商业服务，主要用于传输长途电话、传真和电视信号；(EARLY BIRD)质量为36kg，有两个6/4GHz的转发器，带宽均为25MHz；距Arthur C.Clarke提出的预言整整20年。</li>
+<li>刚成立的Intelsat的管理运营全部由美国的Comsat负责，当时，Bell System在美国的长途电话已经占垄断地位，美国国会通过卫星法案，禁止Bell sys. 参与卫星通信领域。Comsat负责运营的Intelsat很快在国际项目上取得了成功。</li>
+</ul>
+</li>
+<li><strong>第三阶段：1973至1982年</strong><ul>
+<li>主要提供电话、电视和基本数据业务服务，并提供移动卫星业务，如INTELSAT、INMARSAT、INTERSPUTNIC等为陆地、空中、海上的用户提供固定和移动卫星业务；</li>
+</ul>
+</li>
+<li><strong>第四阶段：1982到1990</strong><ul>
+<li>逐步应用于专用商业网中的数据网、数话兼容网，提供压缩视频和音频传输服务；卫星直播业务出现了蓬勃发展的趋势，播放大量的电视节目。</li>
+<li>VSAT网络得到了迅猛发展，已广泛应用于公众电话/数据网、信息服务网、银行、证券、民航、石油、海关、交通、军事、教育、新闻、医疗和经贸等专用网。</li>
+</ul>
+</li>
+<li><p><strong>第五阶段：1990年至今</strong></p>
+<ul>
+<li>LEO、MEO和混合式轨道卫星通信系统开始广泛应用于全球电信网、卫星移动电话，以满足宽带和移动用户的各种需求。尤其是TCP/IP技术、互联网业务的发展，给传统的卫星通信注入了新的活力，使卫星通信的应用及业务进入新的发展时期。</li>
+</ul>
+</li>
+<li><p>JUNK 在轨部分静止轨道卫星一览</p>
+</li>
+<li>各国发射首颗卫星统计</li>
+<li>卫星通信的大致发展历程 </li>
+<li>部分国家发射首颗卫星统计</li>
+</ul>
+<h4 id="1-2-1-国际卫星通信的发展"><a href="#1-2-1-国际卫星通信的发展" class="headerlink" title="1.2.1 国际卫星通信的发展"></a>1.2.1 国际卫星通信的发展</h4><ol>
+<li><p><strong>国际卫星通信系统</strong></p>
+<ul>
+<li><strong>(1) INTELSAT 国际通信卫星公司</strong> Web site: www.intelsat.com<ul>
+<li>成立于1965年11月，总部: 华盛顿</li>
+<li>IS系统是世界上建立最早、发展最迅速、服务遍及全球的国际卫星通信系统，自1965年发射IS I以来，已先后推出了十代卫星(目前第7、8、9代卫星还在运行)，承担了大部分国际通信业务和全球性电视广播业务。</li>
+<li>为近200个国家和地区提供卫星通信服务。前后一共发射卫星逾70颗，目前在轨卫星有40余颗。</li>
+<li>2001年7月，改组 INTELSAT CO. , LTD.</li>
+<li>卫星星座分布图（50+颗卫星在轨）</li>
+</ul>
+</li>
+<li><strong>(2) INMARSAT国际移动卫星组织</strong> <a target="_blank" rel="noopener" href="http://www.inmarsat.com/">http://www.inmarsat.com/</a><ul>
+<li>INMARSAT成立于1979年7月，是全球第一个提供卫星移动通信业务的国际性卫星组织，为海上船只提供商用通信、求救及救援服务。</li>
+<li>1999年重组为商业公司（Inmarsat Ltd.）。</li>
+<li>主要业务领域 1994年，组织名称更改为国际移动卫星组织（International Mobile Satellite Organization，IMSO），但其缩写仍然是 Inmarsat。</li>
+<li>2021年 Inmarsat被美国卫星通信公司 Viasat（卫讯） 以 73 亿美元收购（合并）。Viasat总部加利福尼亚州的卡尔斯巴德Carlsbad， Inmarsat 的伦敦总部成为新集团的全球国际业务总部。</li>
+<li>日本“若潮”号2020年7月25日在毛里求斯近海触礁</li>
+<li>INMARSAT-6</li>
+</ul>
+</li>
+<li><strong>(3) EUTELSAT欧洲通信卫星集团公司 Eutelsat Group</strong> <a target="_blank" rel="noopener" href="http://www.eutelsat.com/">http://www.eutelsat.com/</a><ul>
+<li>1977年 EUTELSAT欧洲通信卫星组织 成立，总部: 巴黎，由47个国家共同组建。</li>
+<li>主要服务区域: 欧洲、中东地区、亚洲西南部、南北美洲。</li>
+<li>2001年，重组为一个商业运营公司，其主要业务范围包括：广播电视节目传送、专用通信网、Internet、移动通信等。</li>
+<li>2023年 Eutelsat Group 有两家公司组成<br>  ① 欧洲通信卫星公司：1977 a global pioneer in GEO satellite operations<br>  ② OneWeb</li>
+<li>35颗GEO卫星、600+ LEO卫星在轨</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>国家和区域卫星通信系统</strong></p>
+<ul>
+<li>各国卫星通信系统能迅速地发展的原因：<ul>
+<li>一 是由于国家政治、经济和文化发展的需要，在发达工业国家，信息流通量与日俱增，对通信的需求量急剧增加；在发展中国家，其经济和文化教育的发展，也迫切需要改善其通信网络。</li>
+<li>二 是卫星通信技术的不断发展，使卫星线路成本大幅度下降，为各国国内通信建设提供了一条现代化的、较为廉价、建设周期较短的途径。</li>
+</ul>
+</li>
+<li>www.sia.org 卫星工业协会 Satellite Industry Association<ul>
+<li>2024年 航天行业全球的总销售额 4150亿美元（去年4000亿美元）<ul>
+<li>卫星制造，销售额 $ 200亿（去年172亿）</li>
+<li>卫星发射，销售额 $93亿（去年72亿）</li>
+<li>卫星服务，销售额 $1083亿（去年1102亿）</li>
+<li>卫星地面设备，销售额 $1550亿（去年1504亿）</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h4 id="中国卫星的发展情况"><a href="#中国卫星的发展情况" class="headerlink" title="中国卫星的发展情况"></a>中国卫星的发展情况</h4><ul>
+<li>1970年4月24日 “东方红一号”（DFH-1）（两弹“一星”）P -&gt; 中国航天日 (1964.10.16 Nuclear Weapon, 1967.6.17 hydrogen bomb)<ul>
+<li>1970年4月24日21时35分，我国第一颗人造卫星“东方红”1号发射升空，21时48分进入预定轨道，21时50分传回了《东方红》乐曲,卫星运行轨道的近地点高度439km、远地点高度2384km、轨道平面与地球赤道平面的夹角68.5°、绕地球一圈114min、卫星质量173kg、用20.009MHz的频率向全世界播送《东方红》乐曲，采用自旋稳定方式飞行 。上得去、抓得住、看得见、听得着。8音节的东方红。</li>
+</ul>
+</li>
+<li>1972年，建设两套可搬运卫星地球站。<ul>
+<li>1972年1月至3月，我国邮电部门租用美国的卫星通信地球站设备（来自美国休斯公司，HUGHES），先后在北京首都机场和上海虹桥机场，建立了两座临时卫星通信地面站。</li>
+</ul>
+</li>
+<li>1984年4月8日，我国自行设计、制造的实验通信卫星“东方红二号”（DFH-2）发射成功<ul>
+<li>DFH2、DFH2_1、DFH2A高为3.6米，直径为2.1米，重441公斤。卫星上装有4个C波段转发器，等效全向辐射功率为36分贝瓦。卫星采用自旋稳定，其轨道保持精度为：南北±1°，东西±0.5°,表面贴有近2万片太阳能电池片</li>
+</ul>
+</li>
+<li>1997年5月12日，“东方红三号”（DFH-3）成功发射（中星6号 ChinaSat-6），Photo1-3</li>
+<li>2008年4月 天链1号 01星发射；2011年7月 02星；2012年7月03星。</li>
+<li>2010年9月5日 鑫诺6号，中星6A，东方红4号平台</li>
+<li>2012年6月16 神舟9号发射, 6月29日返回. FLV</li>
+<li>2015年7月25日 第18、19颗北斗导航卫星于 在西昌发射, 8月9日，两卫星首次实现星间链路建立,标志着北斗卫星导航系统向全球覆盖的建设目标迈出坚实一步。</li>
+<li>2015年9月3日 国家民航总局与国家广电总局合作，在国内航班上首次实现了电视直播，并为飞机上的旅客直播了阅兵实况。</li>
+<li>2016年1月20日 亚太九号卫星（2015年10月17日由长征三号乙在西昌发射）在轨交付东方红四号卫星平台，是中国航天首次向国际成熟卫星运营商提供通信卫星在轨交付服务，标志着东方红四号通信卫星成功进军国际成熟运营商市场。埃塞俄比亚 500第纳尔纸币</li>
+<li>2016年6月25日 文昌发射场启用 长征7号首飞</li>
+<li>2016年11月3日 文昌发射场启用长征5号 Video首飞。近地轨道运载能力为10到25吨，地球同步转移轨道运载能力为6到14吨。</li>
+<li>2016年10月17日, 神舟11号发射，两位航天员于2016年11月18日返回</li>
+<li>2019年12月27日 20:45:00 实践二十号 文昌 长征五号 地球同步转移轨道 -&gt; 东方红五号 Video平台首发<ul>
+<li>东方红五号指标</li>
+</ul>
+</li>
+<li>2020年6月23日，西昌，长征三号乙，最后一颗北斗三号组网卫星。至此，北斗三号全球卫星导航系统星座部署全面完成。</li>
+<li>2020年7月31日 北斗三号全球卫星导航系统建成暨开通仪式31日上午在北京举行。</li>
+<li>2023年2月23日 西昌 长征三号乙运载火箭， 中星26号<ul>
+<li>轨道位置：125°E</li>
+<li>设计寿命：预计超过15年，卫星平台 东方红四号增强型 (DFH-4E)</li>
+<li>关键能力：我国首颗通信容量超过100Gbps的高通量通信卫星</li>
+<li>覆盖范围：中国全境及周边水域、俄罗斯部分地区、东南亚、蒙古、日本、印度尼西亚、印度、印度洋等区域。</li>
+<li>主要服务：面向航空、航海、应急、普遍服务、能源、林草等行业提供高速宽带网络通信和互联网接入等服务。</li>
+<li>重要意义：我国目前通信容量最大、波束最多、最复杂的民商用通信卫星，Ka频段高通量通信载荷。是新一代满足卫星互联网及通信传输要求的高通量宽带通信卫星。</li>
+<li>卫星平台： 东方红四号增强型（DFH-4E）</li>
+<li>轨道位置： 134°E</li>
+<li>在轨寿命： ≥15 年</li>
+<li>通量： 50 Gbps</li>
+<li>用户波束： 90 Beams</li>
+<li>用户频率： Ku频段（10-18GHz）</li>
+<li>关口站波束：Ka频段（10-18GHz）</li>
+<li>EIRP： 最高 65.8 dBW</li>
+<li>G/T ：最高 19.1dB/K</li>
+</ul>
+</li>
+<li>2020年7月9日 亚太6D 西昌 长三乙 APSTAR-6D -&gt; 覆盖地球各种波束示意图</li>
+<li>2021年4月26日，中国星网公司正式成立，简称“中国星网”——卫星互联网领域的”国家队”，其诞生标志着中国在全球低轨卫星互联网竞赛中迈出了关键一步。<ul>
+<li><strong>国网星座——GW星座</strong>，中国星网旗下的一项重大航天工程。该项目是中国首个卫星互联网计划，也是国资委直接出资建设的首个空天一体6G互联网计划，标志着中国在卫星互联网领域迈出了坚实的一步。</li>
+<li>2025年4月29日， 文昌 长征五号乙（CZ-5B） 箭，卫星互联网低轨03组10颗卫星成功发射，截止到2025年5月，GW星座已累计发射卫星互联网卫星超过51颗（试验星17颗+批量组网星34颗）。</li>
+<li>——中国的低轨卫星互联网发展</li>
+<li>卫星发射总规模为12,992颗 。这些卫星将分布在两个子星座中：<ul>
+<li>GW-A59子星座：由6,080颗卫星组成，计划部署在500千米及以下的极低轨道 (VLEO)。</li>
+<li>GW-2（或称GW-A2）子星座：由6,912颗卫星组成，计划部署在高度约1145公里的近地轨道 (LEO)。</li>
+</ul>
+</li>
+<li><strong>中国星网GW星座的建设意义</strong><ul>
+<li>争夺太空资源: 国际电信联盟（ITU）对卫星频率和轨道资源遵循“先登先占”的原则。地球近地轨道资源和优势通信频段资源有限且不可再生。</li>
+<li>构建自主可控的卫星互联网系统: 为应急通信、防灾减灾、远洋航行、航空航天等涉及国家安全和公共安全的领域，提供不受地面基础设施限制的通信保障。</li>
+<li>实现全球覆盖: 两个子星座合力旨在覆盖全球，未来计划支持手机直连卫星通信模式，为全球用户提供低延时、高速率、高可靠的多源融合卫星互联网服务。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>2018年3月，上海垣信卫星科技有限公司成立。上海联和投资有限公司和上海市信息投资股份有限公司发起，系上海市国资委下属控股企业。<ul>
+<li>2021年，提出低轨宽频多媒体卫星 “G60星链” -&gt; <strong>千帆星座</strong>——15000颗星提供手机直连多业务融合服务</li>
+<li>上海联合长三角9大城市共同打造全国首个卫星互联网产业集群，打造，垣信卫星作为 “G60星链” 实施的核心企业，其打造的 “商业低轨宽带卫星星座” 已获得国家发改委项目核准许可。</li>
+<li>2022年，垣信卫星与中科辰新共同发起设立民商批量化卫星研发生产企业 —— 格思航天。</li>
+<li>——中国的低轨卫星互联网发展</li>
+<li>2024年8月6日，长征六号改运载火箭在太原将千帆星座首批18颗商业组网卫星送入预定轨道。</li>
+<li>G60星座截至2024年12月5日已累计发射54颗组网卫星</li>
+<li><strong>实施计划</strong><ul>
+<li>一期：648颗卫星，提供区域网络覆盖（主要覆盖中国及周边地区）</li>
+<li>二期：1296颗卫星，实现全球网络覆盖</li>
+<li>三期：超过1.5万颗卫星，提供多元业务融合服务</li>
+</ul>
+</li>
+<li><strong>系统主要特点</strong>: 传输时延小、链路损耗低、全球覆盖、大带宽、低时延、高质量、高安全性</li>
+</ul>
+</li>
+<li>2021年1月20日0时25分，中国在西昌卫星发射中心用长征三号乙运载火箭，成功将天通一号03星发射升空。Video<ul>
+<li>2020年11月12日23时59分，西昌 长征三号乙 天通一号02星</li>
+</ul>
+</li>
+<li>2022年8月22日 华为：Mate50上市，全球首款支持北斗短信报文功能。</li>
+<li>2023年8月29日 华为突然 + 悄然发售的Mate60Pro；支持北斗、天通一号</li>
+<li>2024年12月3日，天通卫星成立: 中国电信100%持股的天通卫星科技（深圳）有限公司（以下简称天通卫星）成立，注册资本为10亿元；经营范围包括卫星通信服务、卫星导航服务、卫星遥感数据处理、卫星遥感应用系统集成、卫星移动通信终端销售等。</li>
+</ul>
+<p><strong>在我国卫星通信发展过程中，从应用角度来看，卫星通信可分为四个阶段</strong>：</p>
+<ul>
+<li>第一阶段主要用于国际通信；</li>
+<li>第二阶段开始提供电视传送；</li>
+<li>第三阶段提供国内公众通信和各种专网通信；</li>
+<li>第四阶段提供卫星移动通信。</li>
+</ul>
+<p><strong>固定通信业务空间段发展大致经历如下三个变化</strong>：<br>① 卫星转发器由无偿使用转为有偿服务；<br>② 国内卫星通信和电视传输业务由租用外商经营的卫星转发器为主转为租用由我国运营商经营的卫星转发器为主；<br>③ 我国运营商经营的卫星转发器由供不应求已转为供求平衡并有较大富裕。</p>
+<h4 id="中国的卫星公司："><a href="#中国的卫星公司：" class="headerlink" title="中国的卫星公司："></a>中国的卫星公司：</h4><ul>
+<li><strong>中国卫通集团股份有限公司</strong> <a target="_blank" rel="noopener" href="http://www.chinasatcom.com/">http://www.chinasatcom.com/</a> 隶属中国航天科技集团公司，在轨卫星20颗：<ul>
+<li>中星6B 2014-12-02 设计制造：法国泰雷兹阿莱尼亚宇航公司 平台：Spacebus4000 位置：115.5°E</li>
+<li>中星6C 2019-03-26 设计制造：中国空间技术研究院 平台：东方红四号 轨道位置：130°E</li>
+<li>中星6D 2022-04-15 设计制造：中国空间技术研究院 平台：东方红四号增强型 轨道位置：125°E</li>
+<li>中星6E 2023-11-9 设计制造：中国空间技术研究院 平台：东方红四号增强型 轨道位置：115°E</li>
+<li>中星9 2008-6-9 设计制造：法国泰雷兹阿莱尼亚宇航公司 平台：Spacebus4000 位置：92.2°E</li>
+<li>中星9B 2021-09 设计制造：中国空间技术研究院 卫星平台：东方红四号增强型 位置：101.4°E</li>
+<li>中星9C 2025-06 设计制造：中国空间技术研究院 卫星平台：东方红四号增强型 位置：92.2°E</li>
+<li>中星10 2011-06 设计制造：中国空间技术研究院 卫星平台：东方红四号 轨道位置：110.5°E</li>
+<li>中星10R 2025-02 设计制造：中国空间技术研究院 卫星平台：东方红四号增强型 轨道位置：110.5°E</li>
+<li>中星11 2013-05 设计制造：中国空间技术研究院 卫星平台：东方红四号 轨道位置：98°E</li>
+<li>中星12 2012-12 设计制造：法国泰雷兹阿莱尼亚宇航公司 平台：Spacebus 4000 C2 位置：87.5°E</li>
+<li>中星15 2016-01-16 设计制造：中国空间技术研究院 卫星平台：东方红四号 轨道位置：51.5°E</li>
+<li>中星16 2017-04-12 设计制造：中国空间技术研究院 卫星平台：东方红三号B 轨道位置：110.5°E</li>
+<li>中星19 2022-11-5 设计制造：中国空间技术研究院 卫星平台：东方红四号增强型 位置：163°E</li>
+<li>中星26 2023-02-23 设计制造：中国空间技术研究院 卫星平台：东方红四号增强型 位置：125°E</li>
+<li>亚太5C 2018-09-10 设计制造：美国劳拉空间系统公司 平台：FS-1300 轨道位置：138°E</li>
+<li>亚太6C 2019-07-05 设计制造：中国空间技术研究院 东方红四号 轨道位置：134°E</li>
+<li>亚太6D 2020-07-09 设计制造：中国空间技术研究院 卫星平台：东方红四号 轨道位置：134°E</li>
+<li>亚太7号 2012-03-31 设计制造：法国泰雷兹阿莱尼亚宇航公司 平台：Spacebus 4000 C2 位置：76.5°E</li>
+<li>亚太9号 2015-10-17 设计制造：中国空间技术研究院 卫星平台：东方红四号 轨道位置：142°E</li>
+<li>共20颗</li>
+</ul>
+</li>
+<li><p>中国卫通宣传片</p>
+</li>
+<li><p><strong>亚洲卫星公司 (www.asiasat.com)</strong></p>
+<ul>
+<li>两大控股股东: 中国中信集团公司（CITIC）和总部位于卢森堡的世界最大的卫星营运组织——SES环球卫星公司（SES GLOBAL）(<a target="_blank" rel="noopener" href="http://www.ses-global.com/">http://www.ses-global.com/</a>), 后者拥有34.1％的股份</li>
+<li>亚洲5号 AsiaSat 5 （2009.8.12） 100.5ºE 接替 AsiaSat 2</li>
+<li>亚洲6号 AsiaSat 6 （2014.9.7） 120ºE</li>
+<li>亚洲7号 AsiaSat 7 （2011.11）接替 AsiaSat 3S</li>
+<li>亚洲8号 AsiaSat 8 （2014.8.5）100.5ºE 与亚洲5号共轨</li>
+<li>亚洲9号 AsiaSat 9 （2017.9.29）接替 AsiaSat 4 122ºE</li>
+<li>AsiaSat 9</li>
+</ul>
+</li>
+<li><p><strong>2024年中国航天发射一览表</strong></p>
+</li>
+<li><strong>2018～2024年中国航天发射与他国对比</strong><ul>
+<li>2020年: 美国 44次, 中国 39次, 俄罗斯 17次, 欧空局 5次, 日本 4次, 印度 2次, 伊朗 2次, 以色列 1次</li>
+<li>2019年: 中国 29次, 美国 25次, 俄罗斯 22次, 印度 6次, 欧空局 5次, 日本 2次</li>
+<li>2018年: 中国 38次, 美国 34次, 俄罗斯 18次, 欧空局 10次, 印度 7次, 日本 6次</li>
+<li>2021年: 中国 55次（失利3）, 美国 51次（失利3）, 俄罗斯 25次（失利1）, 欧空局 6次, 日本 3次, 印度 2次（失利1）, 伊朗 1次（失利）, 韩国 1次（失利）</li>
+<li>2022年: 中国 64次（失利2）, 美国 87次（失利3）, 俄罗斯 22次, 欧空局 5次（失利1）, 日本 1次（失利1）, 印度 5次（失利1）, 伊朗 1次, 韩国 1次</li>
+<li>2023年: 中国 67次, 美国 116次, 俄罗斯 19次, 欧空局 3次, 日本 3次, 印度 7次, 朝鲜 3次, 韩国 2次, 伊朗 2次, 以色列 1次</li>
+<li>2024年: 中国 68次, 美国 156次, 俄罗斯 17次, 欧空局 3次, 日本 7次, 印度 5次, 朝鲜 1次, 伊朗 4次</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="1-2-3-卫星通信技术的发展趋势"><a href="#1-2-3-卫星通信技术的发展趋势" class="headerlink" title="1.2.3 卫星通信技术的发展趋势"></a>1.2.3 卫星通信技术的发展趋势</h3><ul>
+<li><strong>开发和使用更高的频段</strong><ul>
+<li>Ka波段（17~36GHz）、Q波段（36~46GHz）和V波段（46~56GHz）</li>
+<li>激光链路 X射线链路</li>
+</ul>
+</li>
+<li><strong>发展大型同步通信卫星，向大功率、大容量、多波束覆盖、智能化发展 、保密技术</strong></li>
+<li><strong>低轨卫星群与蜂窝技术相结合, 实现全球移动通信</strong></li>
+<li><strong>小型卫星通信地球站(VSAT)、卫星电视直播DTH(DVB-S)和数字音频广播(DAB)步入家庭和个人用户，实现数字、语音、图像多种信号兼容的综合业务；利用LEO卫星和小卫星星座实现卫星移动通信系统，研究解决小卫星之间星际激光链路传输技术，达到全球移动通信的无缝覆盖。</strong><ul>
+<li>3G、4G、5G、6G、IoT</li>
+</ul>
+</li>
+<li><strong>全软件定义卫星</strong><ul>
+<li>软件定义：无线电、载荷、数据处理计算机、网络等</li>
+<li>将传统上由分系统实现的通信、载荷等功能以软件方式实现，总体上将各类敏感器和执行机构通过软件连接为一个整体，实现大部分卫星功能的软件化。</li>
+<li>将应用任务与卫星硬件设计解耦，便于通过软件实现卫星功能的在轨重构，适应不断变化的应用需求。</li>
+</ul>
+</li>
+<li><strong>微小卫星及其编队成为近年来卫星发展的一个重要方向</strong><ul>
+<li>微小卫星技术含量高，研发周期短（一年左右），研制经费低（千万级人民币），可以进一步组网，以分布式星座组成虚拟大卫星；</li>
+<li>小卫星特点明显：体积小，重量轻，可批量生产，造价低；小型火箭可发射，一箭多星发射，发射成本低；</li>
+</ul>
+</li>
+<li><strong>不断发展新业务，进一步降低通信费用，改善服务质量 QoS</strong><ul>
+<li>面临地面的光纤通信系统、移动通信系统、CATV及HFC网络的激烈竞争和挑战，必须充分发挥卫星通信的优势，从技术上、网络管理上进一步降低运营成本，从而降低通信费用，同时提高服务质量（QoS），以满足用户对各种通信业务的需求。</li>
+</ul>
+</li>
+<li><strong>保证卫星通信安全，提高卫星信号防护能力。</strong><ul>
+<li>卫星通信作为开放的无线通信系统，要对敏感信息使用高强度加密措施提高抗截获能力。通过调零天线等措施，防止干扰和恶意入侵，并配备入侵干扰告警措施。 (FALUNGONG HIJACK)</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="卫星通信的应用领域"><a href="#卫星通信的应用领域" class="headerlink" title="卫星通信的应用领域"></a>卫星通信的应用领域</h3><p>Applications and services</p>
+<h4 id="卫星通信的业务类型——三大类："><a href="#卫星通信的业务类型——三大类：" class="headerlink" title="卫星通信的业务类型——三大类："></a>卫星通信的业务类型——三大类：</h4><p>FSS, MSS, BSS</p>
+<ul>
+<li><strong>（1）固定卫星业务 FSS (Fixed Satellite Service)</strong><ul>
+<li>固定卫星地球站之间进行的卫星通信业务</li>
+<li>如；VSAT、DTH、电视节目传输、应急通信等</li>
+</ul>
+</li>
+<li><strong>（2）移动卫星业务 MSS (Mobile Satellite Service)</strong><ul>
+<li>移动卫星地球站或手持移动终端利用卫星进行通信的业务</li>
+<li>卫星移动通信系统</li>
+</ul>
+</li>
+<li><strong>（3）广播卫星业务 BSS (Broadcasting Satellite Service)</strong><ul>
+<li>利用卫星传输广播电视业务，提供公众服务</li>
+<li>卫星直播业务——DTH</li>
+<li>卫星转播业务——卫星电视传输</li>
+</ul>
+</li>
+</ul>
+<h4 id="卫星通信的业务类型应用"><a href="#卫星通信的业务类型应用" class="headerlink" title="卫星通信的业务类型应用"></a>卫星通信的业务类型应用</h4><ol>
+<li><strong>卫星电视</strong><ul>
+<li>卫星转发电视（村村通CCT、HBO、体育赛事）</li>
+<li>卫星直播电视(TV)（DTH）</li>
+<li>电视新闻（CNN、FOX news、半岛电视台、CCTV Gulf war、伊拉克战争报道 ）</li>
+<li>WORLD CUP CCTV<ul>
+<li>1998: $2M</li>
+<li>2002+2006: $24.98M</li>
+<li>2010+2014: $120M</li>
+<li>JPN :2010+2014: $ 300M</li>
+<li>KOR: 2010+2014: $ 180M</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>长途电信</strong><ul>
+<li>Internet、VPN（企业网 WAL-MART）、数据传输（电子汇兑、报纸版面传送）</li>
+<li>光缆备份——国际卫星公司</li>
+</ul>
+</li>
+<li><strong>卫星移动通信（Iridium、Global star、Inmarsat）</strong><ul>
+<li>移动电话、海事通信、航空通信、IoT M2M等</li>
+</ul>
+</li>
+<li><strong>科学研究、气象、地质勘探、军事间谍（FIG）</strong><ul>
+<li>土地问责——国土部卫片执法检查</li>
+<li>卫星摄影 Baidu Map, Google Map</li>
+</ul>
+</li>
+<li><strong>应急通信保障</strong><ul>
+<li>2010年4月14日玉树地震发生后，中国电信在玉树州玉树县建设的48部“村村通”卫星电话迅速作出反应，第一时间向外界发出灾情信息，对通报灾情、指挥救援发挥了作用。</li>
+<li>2015年9月3日，天安门阅兵 战车的行驶已经使用了北斗定位系统控制方向和速度；</li>
+<li>2023年7月30日，超强台风“杜苏芮”袭击全国，京津冀地区的降雨，中国电信廊坊公司卫星通信应急保障；第一时间配送到泄洪区抢险队员手中。</li>
+</ul>
+</li>
+<li><strong>全球定位导航 GNSS（北斗系统 GPS Pentagon ）、海难救护</strong></li>
+</ol>
+<ul>
+<li>在电信领域，卫星通信系统只是地面网络的补充、扩展和备份，在地面网络高度发达的区域使用卫星通信是非常不经济的，只能作为应付灾害造成地面网络出现故障的备份，对于低业务密度区域使用卫星网络则比较经济。</li>
+</ul>
+<hr>
+<h3 id="End-of-CH1"><a href="#End-of-CH1" class="headerlink" title="End of CH1"></a>End of CH1</h3></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://dream-675.github.io">Eleven</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://dream-675.github.io/2025/09/07/%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E5%A4%8D%E4%B9%A0deepseek%E8%AF%95%E9%AA%8C%E7%89%88/">http://dream-675.github.io/2025/09/07/%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E5%A4%8D%E4%B9%A0deepseek%E8%AF%95%E9%AA%8C%E7%89%88/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://dream-675.github.io" target="_blank">十一的灵魂存放处</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%AD%A6%E4%B9%A0/">学习</a></div><div class="post-share"><div class="social-share" data-image="/img/challenge.jpeg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2025/08/21/%E4%B8%8EAI%E7%9A%84%E5%AF%B9%E8%AF%9D/" title="AI辅助学习记录"><img class="cover" src="/img/home.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">AI辅助学习记录</div></div><div class="info-2"><div class="info-item-1">这篇文章会出现是因为deepseek的回复中包含一些latex公式，但是网页版无法正常显示，于是放到md文件中。顺便记录。（毕竟它还会崩） 关于电磁场的提问引导词：我在学习电磁场，微积分相关内容，会遇到很多问题。 希望你能像教授一样正确的，详细地，温和地回答我的问题。 我会尽量用符号描述，在你的回答中，请先复述一遍我的问题，以便我知道你有没有理解错。 另外采用交叉验证的方式，确保答案的准确性。 现在是2025年8月21日周四下午13时52分。公式采用letax格式就好。清楚了请回复“1” 提问无限大线电荷电位非常好！这是一个经典的题目，但它包含一个非常重要的“陷阱”，正好能帮助我们深入理解电位的概念。 我们来一起解决这个问题。 第一步：复述问题求无限长线电荷（其线电荷密度为 $\lambda$）在空间中产生的电位分布 $V(r)$。 第二步：尝试直接计算与发现“陷阱”最直接的想法是使用电位公式： V(\mathbf{r}) = \frac{1}{4\pi\epsilon_0} \int \frac{dq}{r}对于无限长直线电荷，我们选择柱坐标系，将线电荷放在 $z$...</div></div></div></a><a class="pagination-related" href="/2025/11/23/%E6%83%B3%E5%81%9A%E5%A5%BD%E5%A4%9A%E4%BA%8B/" title="想做好多事"><img class="cover" src="/img/ocean.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">想做好多事</div></div><div class="info-2"><div class="info-item-1">...</div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/eleven.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Eleven</div><div class="author-info-description">这里记录着我主动去做的事情</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Dream-675"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/Dream-675" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:2471736500@qq.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">这里是十一的博客</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1-CH1-V1"><span class="toc-number">1.</span> <span class="toc-text">卫星通信 CH1(V1)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%88%E4%BF%AE%E8%AF%BE%E7%A8%8B%E5%8F%8A%E5%8F%82%E8%80%83%E4%B9%A6%E7%9B%AE"><span class="toc-number">1.0.1.</span> <span class="toc-text">先修课程及参考书目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%AC%E8%AF%BE%E7%9A%84%E4%B8%BB%E8%A6%81%E5%86%85%E5%AE%B9"><span class="toc-number">1.0.2.</span> <span class="toc-text">本课的主要内容</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CH1-%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E6%A6%82%E8%AE%BA"><span class="toc-number">1.1.</span> <span class="toc-text">CH1 卫星通信概论</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%AC%E7%AB%A0%E4%B8%BB%E8%A6%81%E5%86%85%E5%AE%B9"><span class="toc-number">1.1.1.</span> <span class="toc-text">本章主要内容</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="toc-number">1.1.2.</span> <span class="toc-text">1.1 卫星通信的概念</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-1-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5-Concept-of-satellite"><span class="toc-number">1.1.2.1.</span> <span class="toc-text">1.1.1 基本概念 Concept of satellite</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-2-%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E7%9A%84%E7%89%B9%E7%82%B9%E2%80%94%E2%80%94%E4%BC%98%E7%82%B9"><span class="toc-number">1.1.2.2.</span> <span class="toc-text">1.1.2 卫星通信的特点——优点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-2-%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E7%9A%84%E7%89%B9%E7%82%B9%E2%80%94%E2%80%94%E7%BC%BA%E7%82%B9"><span class="toc-number">1.1.2.3.</span> <span class="toc-text">1.1.2 卫星通信的特点——缺点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-3-%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0%EF%BC%88Satellite-communication-system%EF%BC%89"><span class="toc-number">1.1.2.4.</span> <span class="toc-text">1.1.3 卫星通信系统概述（Satellite communication system）</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E7%9A%84%E5%8F%91%E5%B1%95"><span class="toc-number">1.1.3.</span> <span class="toc-text">1.2 卫星通信的发展</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-%E5%9B%BD%E9%99%85%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E7%9A%84%E5%8F%91%E5%B1%95"><span class="toc-number">1.1.3.1.</span> <span class="toc-text">1.2.1 国际卫星通信的发展</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%AD%E5%9B%BD%E5%8D%AB%E6%98%9F%E7%9A%84%E5%8F%91%E5%B1%95%E6%83%85%E5%86%B5"><span class="toc-number">1.1.3.2.</span> <span class="toc-text">中国卫星的发展情况</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%AD%E5%9B%BD%E7%9A%84%E5%8D%AB%E6%98%9F%E5%85%AC%E5%8F%B8%EF%BC%9A"><span class="toc-number">1.1.3.3.</span> <span class="toc-text">中国的卫星公司：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-3-%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E6%8A%80%E6%9C%AF%E7%9A%84%E5%8F%91%E5%B1%95%E8%B6%8B%E5%8A%BF"><span class="toc-number">1.1.4.</span> <span class="toc-text">1.2.3 卫星通信技术的发展趋势</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E7%9A%84%E5%BA%94%E7%94%A8%E9%A2%86%E5%9F%9F"><span class="toc-number">1.1.5.</span> <span class="toc-text">卫星通信的应用领域</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E7%9A%84%E4%B8%9A%E5%8A%A1%E7%B1%BB%E5%9E%8B%E2%80%94%E2%80%94%E4%B8%89%E5%A4%A7%E7%B1%BB%EF%BC%9A"><span class="toc-number">1.1.5.1.</span> <span class="toc-text">卫星通信的业务类型——三大类：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E7%9A%84%E4%B8%9A%E5%8A%A1%E7%B1%BB%E5%9E%8B%E5%BA%94%E7%94%A8"><span class="toc-number">1.1.5.2.</span> <span class="toc-text">卫星通信的业务类型应用</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#End-of-CH1"><span class="toc-number">1.1.6.</span> <span class="toc-text">End of CH1</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2026/03/05/%E5%8D%9A%E5%AE%A2%E6%8E%A8%E8%8D%90/" title="博客推荐"><img src="/img/476FA22E75865D113C5764FE84BFF3FF.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="博客推荐"/></a><div class="content"><a class="title" href="/2026/03/05/%E5%8D%9A%E5%AE%A2%E6%8E%A8%E8%8D%90/" title="博客推荐">博客推荐</a><time datetime="2026-03-05T10:32:52.000Z" title="发表于 2026-03-05 18:32:52">2026-03-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/11/23/%E6%83%B3%E5%81%9A%E5%A5%BD%E5%A4%9A%E4%BA%8B/" title="想做好多事"><img src="/img/ocean.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="想做好多事"/></a><div class="content"><a class="title" href="/2025/11/23/%E6%83%B3%E5%81%9A%E5%A5%BD%E5%A4%9A%E4%BA%8B/" title="想做好多事">想做好多事</a><time datetime="2025-11-23T13:27:39.000Z" title="发表于 2025-11-23 21:27:39">2025-11-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/09/07/%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E5%A4%8D%E4%B9%A0deepseek%E8%AF%95%E9%AA%8C%E7%89%88/" title="卫星通信复习D老师"><img src="/img/challenge.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="卫星通信复习D老师"/></a><div class="content"><a class="title" href="/2025/09/07/%E5%8D%AB%E6%98%9F%E9%80%9A%E4%BF%A1%E5%A4%8D%E4%B9%A0deepseek%E8%AF%95%E9%AA%8C%E7%89%88/" title="卫星通信复习D老师">卫星通信复习D老师</a><time datetime="2025-09-07T15:07:48.000Z" title="发表于 2025-09-07 23:07:48">2025-09-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/08/21/%E4%B8%8EAI%E7%9A%84%E5%AF%B9%E8%AF%9D/" title="AI辅助学习记录"><img src="/img/home.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="AI辅助学习记录"/></a><div class="content"><a class="title" href="/2025/08/21/%E4%B8%8EAI%E7%9A%84%E5%AF%B9%E8%AF%9D/" title="AI辅助学习记录">AI辅助学习记录</a><time datetime="2025-08-21T05:59:48.000Z" title="发表于 2025-08-21 13:59:48">2025-08-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/07/21/%E7%99%BD%E6%9D%BF-%E8%AE%B0%E5%BD%95APP%E6%90%AD%E5%BB%BA/" title="白板-记录APP搭建"><img src="/img/2.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="白板-记录APP搭建"/></a><div class="content"><a class="title" href="/2025/07/21/%E7%99%BD%E6%9D%BF-%E8%AE%B0%E5%BD%95APP%E6%90%AD%E5%BB%BA/" title="白板-记录APP搭建">白板-记录APP搭建</a><time datetime="2025-07-21T06:15:06.000Z" title="发表于 2025-07-21 14:15:06">2025-07-21</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2026 By Eleven</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.3.5</a></div><div class="footer_custom_text"><div> 本站已记录我 <span id="days">0</span> 天 <span id="hours">00</span> 小时 <span id="minutes">00</span> 分 <span id="seconds">00</span> 秒的生活<br> </div></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"><script>(() => {
+  const loadMathjax = () => {
+    if (!window.MathJax) {
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          tags: 'none',
+        },
+        chtml: {
+          scale: 1.1
+        },
+        options: {
+          enableMenu: true,
+          renderActions: {
+            findScript: [10, doc => {
+              for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+                const display = !!node.type.match(/; *mode=display/)
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+                const text = document.createTextNode('')
+                node.parentNode.replaceChild(text, node)
+                math.start = {node: text, delim: '', n: 0}
+                math.end = {node: text, delim: '', n: 0}
+                doc.math.push(math)
+              }
+            }, '']
+          }
+        }
+      }
+
+      const script = document.createElement('script')
+      script.src = 'https://cdn.jsdelivr.net/npm/mathjax/es5/tex-mml-chtml.min.js'
+      script.id = 'MathJax-script'
+      script.async = true
+      document.head.appendChild(script)
+    } else {
+      MathJax.startup.document.state(0)
+      MathJax.texReset()
+      MathJax.typesetPromise()
+    }
+  }
+
+  btf.addGlobalFn('encrypt', loadMathjax, 'mathjax')
+  window.pjax ? loadMathjax() : window.addEventListener('load', loadMathjax)
+})()</script></div><script>
+  // 计算运行时间
+  function updateTime() {
+   const startDate = moment('2025-04-25'); 
+   const now = moment();
+   const duration = moment.duration(now.diff(startDate));
+   
+  document.getElementById('days').textContent = Math.floor(duration.asDays());
+    document.getElementById('hours').textContent = duration.hours().toString().padStart(2, '0');
+   document.getElementById('minutes').textContent = duration.minutes().toString().padStart(2, '0');
+   document.getElementById('seconds').textContent = duration.seconds().toString().padStart(2, '0');
+ }
+  
+  setInterval(updateTime, 1000);
+  updateTime();
+</script>
+<script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
