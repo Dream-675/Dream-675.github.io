@@ -54,6 +54,25 @@
     
     
     <entry>
+      <title>博客生日快乐！</title>
+      <link href="/2026/04/26/%E5%8D%9A%E5%AE%A2%E7%94%9F%E6%97%A5%E5%BF%AB%E4%B9%90/"/>
+      <url>/2026/04/26/%E5%8D%9A%E5%AE%A2%E7%94%9F%E6%97%A5%E5%BF%AB%E4%B9%90/</url>
+      
+        <content type="html"><![CDATA[<p>不知不觉建立这个博客已经一年了，刚建立的时候我还很迷茫，不过不用担心，现在也很迷茫XD</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 纪念 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>PowerShell学习记录</title>
       <link href="/2026/04/02/powershell%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
       <url>/2026/04/02/powershell%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
@@ -196,6 +215,25 @@
         <tags>
             
             <tag> 玩 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>白板-传感器</title>
+      <link href="/2025/07/01/%E7%99%BD%E6%9D%BF-%E4%BC%A0%E6%84%9F%E5%99%A8/"/>
+      <url>/2025/07/01/%E7%99%BD%E6%9D%BF-%E4%BC%A0%E6%84%9F%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<h3 id="压力传感器"><a href="#压力传感器" class="headerlink" title="@压力传感器"></a>@压力传感器</h3><h3 id="时钟模块"><a href="#时钟模块" class="headerlink" title="@时钟模块"></a>@时钟模块</h3><p>功能：</p><ol><li>显示当前日期和时间</li><li>实现定时功能</li></ol><h5 id="法1，RTC"><a href="#法1，RTC" class="headerlink" title="法1，RTC"></a>法1，RTC</h5><p>RTC可以设置当前的时钟和日期。使用的芯片为<strong>BM8563</strong></p><p>可编程的预分频系数：分频系数最高为220。<br>● 32位的可编程计数器，可用于较长时间段的测量。<br>● 2个分离的时钟：用于APB1接口的PCLK1和RTC时钟(RTC时钟的频率必须小于PCLK1时钟 频率的四分之一以上)。<br>● 可以选择以下三种RTC的时钟源： ─ HSE时钟除以128； ─ LSE振荡器时钟； ─ LSI振荡器时钟(详见6.2.8节RTC时钟)。<br>● 2个独立的复位类型： ─ APB1接口由系统复位； ─ RTC核心(预分频器、闹钟、计数器和分频器)只能由后备域复位(详见6.1.3节)。<br>● 3个专门的可屏蔽中断： ─ 闹钟中断，用来产生一个软件可编程的闹钟中断。 ─ 秒中断，用来产生一个可编程的周期性中断信号(最长可达1秒)。 ─ 溢出中断，指示内部可编程计数器溢出并回转为0的状态。</p><p>等等，大意了，time写了四个c文件！！！<br>第一个：time1，高级定时器1的中断初始化，时钟选择为APB2。<br>第二个到第四个都意义不明：time2，使能定时器时钟；初始化定时器，配置ARR,PSC；定时器中断配置，同时配置NVIC；使能定时器；编写中断服务函数<br>MyRTC也是时间有关的，设置了</p><hr><p>BM8563:</p><h3 id="WIFI-蓝牙模块"><a href="#WIFI-蓝牙模块" class="headerlink" title="@WIFI-蓝牙模块"></a>@WIFI-蓝牙模块</h3><h3 id="已实现的模块"><a href="#已实现的模块" class="headerlink" title="@已实现的模块"></a>@已实现的模块</h3><p>实现Keil环境配置，能打开模板程序。</p><h3 id="希望了解的模块"><a href="#希望了解的模块" class="headerlink" title="@希望了解的模块"></a>@希望了解的模块</h3><p>Q：keil工程中的CMSIS\STARTUP\FWLIB\USER文件夹都有什么用？</p><p>A：CMSIS\STARTUP是必须的，CMSIS存放寄存器定义、系统初始化，负责编译，STARTUP负责运行。FWLIB是外设驱动库；其他的都是用户自定义的文件夹，其中必须要有入口main文件。</p><p>Q：</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 生活 </tag>
             
         </tags>
       
