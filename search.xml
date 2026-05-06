@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Blender学习实录</title>
+      <link href="/2026/05/06/Blender%E5%AD%A6%E4%B9%A0%E5%AE%9E%E5%BD%95/"/>
+      <url>/2026/05/06/Blender%E5%AD%A6%E4%B9%A0%E5%AE%9E%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Blender学习实录"><a href="#Blender学习实录" class="headerlink" title="Blender学习实录"></a>Blender学习实录</h3><p>教程来自B站【【Blender】爆肝两个月！拜托三连了！这绝对是全B站最用心的（没有之一）Blender 3D建模零基础入门公开教程，耗时千余小时开发！】 <a href="https://www.bilibili.com/video/BV1kX4y1m7G5/?share_source=copy_web&amp;vd_source=69f15425256ffff0bab37c6e88c75194">https://www.bilibili.com/video/BV1kX4y1m7G5/?share_source=copy_web&amp;vd_source=69f15425256ffff0bab37c6e88c75194</a></p><p>以下是一些快捷键、方法的记录，鼠标默认右手位。</p><hr><ol><li><p>场景编辑</p><blockquote><ul><li>移动场景：shift+按住鼠标中键移动   或者   shift+两指接触触摸板移动</li><li>旋转场景：长按鼠标中键   或者  两指接触触摸板移动</li><li>缩放场景：滚动鼠标中键  或者  两指在触摸板上，缩放的手势</li></ul></blockquote></li><li><p>视图调整</p><blockquote><p>一定是右边的九键小键盘的数字！！！</p><ul><li>按下1：正视图</li><li>按下3：右视图</li><li>按下7：顶视图</li><li>按下9：下视图</li><li>选中物体，按下小数点：选中的物体最大化显示；再次按下退出</li><li>选中物体，按下/：选中的物体独立显示，并且最大化显示；再次按下退出</li><li>其他数字也有相应的视图哦，可以随便按按。</li></ul></blockquote></li><li><p>物体创建</p><blockquote><p>shift+A    或者  在从上往下数第二栏中，左数第二个选择物体模式；左数第五个点击“添加”</p><p>注意空物体只有框哦，立方体应该在网格里建立</p></blockquote></li><li><p>物体缩放</p><blockquote><p>首先选中物体。</p><p>位移如下：</p><ul><li><p>按住G、接着按X，同时鼠标调整位置，最后点击鼠标左键确定位置：在X方向平移。</p></li><li><p>按住G、接着按Y，同时鼠标调整位置，最后点击鼠标左键确定位置：在Y方向平移。</p></li><li><p>按住G、接着按Z，同时鼠标调整位置，最后点击鼠标左键确定位置：在Z方向平移。</p></li><li><p>按住G，同时鼠标调整位置，最后点击鼠标左键确定位置：自由移动物体（或者沿着目前存在的坐标轴平移物体）</p></li></ul><p>旋转如下：</p><ul><li>按住R是旋转，在此基础上，按住x\y\z是对应方向的旋转。</li></ul><p>缩放如下：</p><ul><li>按住S缩放，在此基础上，按住x\y\z是对应方向的旋缩放。</li></ul></blockquote></li><li><p>操作快捷键</p><blockquote><ul><li>撤销：ctrl+Z</li><li>切换着色：shift+Z，在显示实心/空心之间切换</li><li>打开物体弹窗：tab+ctrl</li><li>透视显示：alt+Z</li><li>倒角：ctrl+B</li><li>删除物体：选中物体+X</li><li>复制：shift+D</li></ul></blockquote></li><li><p>有关插件</p><blockquote><p>建议安装并勾选，node arrange; node presets; node wrangler.</p><p>编辑-&gt;偏好设置-&gt;获取扩展：联网安装插件</p><p>编辑-&gt;偏好设置-&gt;插件：这里能勾选已有插件</p></blockquote></li><li><p>一些问题</p><blockquote><ul><li>倒角穿模：说明选择的区域，倒角的长度太长，上下两边倒角重叠。</li></ul></blockquote></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技能 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技能 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何开始行动</title>
       <link href="/2026/04/27/%E5%A6%82%E4%BD%95%E5%BC%80%E5%A7%8B%E8%A1%8C%E5%8A%A8/"/>
       <url>/2026/04/27/%E5%A6%82%E4%BD%95%E5%BC%80%E5%A7%8B%E8%A1%8C%E5%8A%A8/</url>
